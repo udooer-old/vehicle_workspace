@@ -6,7 +6,7 @@ PID::PID(double kp, double ki, double kd, double max, double min)
 {}
 PID::~PID()
 {}
-PID::double getError(double heading){
+double PID::getError(double heading){
 	double error;
 	if(m_set_heading > heading){
 		error = m_set_heading - heading;
@@ -23,14 +23,14 @@ PID::double getError(double heading){
 		return error;
 	}
 }
-PID::void setHeading(double set)
+void PID::setHeading(double set)
 {
 	if( (set<360) && (set>0) )
 		m_set_heading = set;
 	else
-		cout<<"error input(wrong desired heading)!!!\n";
+		std::cout<<"error input(wrong desired heading)!!!\n";
 }
-PID::double controller(double error)
+double PID::controller(double error)
 {
 	//proportional term 
 	double p = m_kp * error;
@@ -40,19 +40,20 @@ PID::double controller(double error)
 	double i = m_ki * m_I_error; 
 
 	//derivative term
+    double d = 0;
 	if(m_first_exe)
 		m_last_error = error;
 	else{
-		double d = m_kd * (error-m_last_error);
+		d = m_kd * (error-m_last_error);
 		m_last_error = error;
 		m_first_exe = false;
 	}
 
 	//output voltage 
 	double output = p + i + d;
-	if(output < min)
-		output = min;
-	else if(output > max)
-		output = max;
+	if(output < m_min)
+		output = m_min;
+	else if(output > m_max)
+		output = m_max;
 	return output;
 }
