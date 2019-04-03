@@ -8,7 +8,8 @@ class PID
 		~PID();
 	public:
 		double getError(double);
-		void setHeading(double);
+	    void setConfig(double, double, double, int, int);
+        void setHeading(double);
 		double controller(double);
 	private:
 		double m_set_heading{0};

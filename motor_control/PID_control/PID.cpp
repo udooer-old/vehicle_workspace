@@ -57,3 +57,10 @@ double PID::controller(double error)
 		output = m_max;
 	return output;
 }
+void PID::setConfig(double kp, double ki, double kd, int max, int min){
+    m_kp = kp;
+    m_ki = ki;
+    m_kd = kd;
+    m_max = max;
+    m_min = min;
+}
