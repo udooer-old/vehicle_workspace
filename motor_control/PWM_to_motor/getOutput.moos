@@ -17,11 +17,11 @@ ProcessConfig = ANTLER
 
   Run = MOOSDB          @ NewConsole = false
 
-  Run = ./getOutput.py  @ NewConsole = false
+  Run = ./test.py  @ NewConsole = false
   Run = uXMS            @ NewConsole = true
 }
 
-ProcessConfig = getOutput.py
+ProcessConfig = test.py
 {
 }
 
