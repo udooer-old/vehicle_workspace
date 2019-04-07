@@ -61,18 +61,18 @@ def main():
             if T.output > 0:
                 pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)
                 pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O)
-                pi.write(left_1,1)
-                pi.write(left_2,0)
-                pi.write(right_1,0)
-                pi.write(right_2,1)
-                time.sleep(0.1)
-            if T.output < 0:
-                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)
-                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O)
                 pi.write(left_1,0)
                 pi.write(left_2,1)
                 pi.write(right_1,1)
                 pi.write(right_2,0)
+                time.sleep(0.1)
+            else:
+                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)
+                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O)
+                pi.write(left_1,1)
+                pi.write(left_2,0)
+                pi.write(right_1,0)
+                pi.write(right_2,1)
                 time.sleep(0.1)
     
     except KeyboardInterrupt:
