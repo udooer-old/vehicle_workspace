@@ -3,7 +3,7 @@ import sys
 sys.path.append('/usr/local/lib/python3/dist-packages')
 from pymoos import pymoos
 import time
-
+import pigpio
 
 class getOutputMOOS(pymoos.comms):
     """pongMOOS is an example python MOOS app.
@@ -19,7 +19,7 @@ class getOutputMOOS(pymoos.comms):
         super(getOutputMOOS, self).__init__()
         self.server = moos_community
         self.port = moos_port
-        self.name = 'getOutputMOOS'
+        self.name = 'getOutputPyMOOS'
         self.iter = 0
         self.output = 0
 
@@ -38,7 +38,6 @@ class getOutputMOOS(pymoos.comms):
         for msg in self.fetch():
             if msg.key() == 'OUTPUT_VOLTAGE':
                 self.output = msg.double()
-                self.notify('GET', self.output, -1)
         return True
 
 
@@ -46,28 +45,44 @@ class getOutputMOOS(pymoos.comms):
 def main():
     T = getOutputMOOS('localhost', 9000)
     
-    PWM_PIN_positive = 18
-    PWM_PIN_negative = 12
+    PWM_PIN_left = 18
+    left_1 = 23
+    left_2 = 24
+    PWM_PIN_right = 12
+    right_1 = 27
+    right_2 = 22
     PWM_FREQ = 800
     pi = pigpio.pi()
     try:
         print('Ctrl-C to end the program')
         while True:
-            o = int(abs(T.output)/3.3*1000000)
+            O = int(abs(T.output)/3.3*1000000)
 
-            if T.ouput > 0:
-                pi.hardware_PWM(PWM_PIN_positive, PWM_FREQ, o)
-                pi.write(PWM_PIN_negative,0)
+            if T.output > 0:
+                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)
+                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O)
+                pi.write(left_1,1)
+                pi.write(left_2,0)
+                pi.write(right_1,0)
+                pi.write(right_2,1)
                 time.sleep(0.1)
             if T.output < 0:
-                pi.hardware_PWM(PWM_PIN_negative, PWM_FREQ, o)
-                pi.write(PWM_PIN_positive, 0)
+                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)
+                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O)
+                pi.write(left_1,0)
+                pi.write(left_2,1)
+                pi.write(right_1,1)
+                pi.write(right_2,0)
                 time.sleep(0.1)
     
     except KeyboardInterrupt:
         print('\nclose the program by keyboard')
     finally:
-        pi.set_mode(PWM_PIN_positive, pigpio.INPUT)
-        pi.set_mode(PWM_PIN_negative, pigpio.INPUT)
+        pi.set_mode(PWM_PIN_left, pigpio.INPUT)
+        pi.set_mode(PWM_PIN_right, pigpio.INPUT)
+        pi.set_mode(left_1, pigpio.INPUT)
+        pi.set_mode(left_2, pigpio.INPUT)
+        pi.set_mode(right_1, pigpio.INPUT)
+        pi.set_mode(right_2, pigpio.INPUT)
 if __name__ == "__main__":
     main()
