@@ -1,0 +1,61 @@
+//-------------------------------------------------
+// NAME: M. S. Ibn Seddik, MIT CSAIL
+// FILE: getOutput.moos
+//-------------------------------------------------
+
+ServerHost = localhost
+ServerPort = 9000
+Community  = alpha
+
+MOOSTimeWarp = 1
+
+//------------------------------------------
+// Antler configuration  block
+ProcessConfig = ANTLER
+{
+  MSBetweenLaunches = 200
+
+  Run = MOOSDB          @ NewConsole = false
+  Run = pLogger 	@ NewCondole = false
+  Run = pController	@ NewConsole = false
+  Run = ./getOutput.py  @ NewConsole = false
+}
+
+ProcessConfig = getOutput.py
+{
+}
+
+ProcessConfig = pController
+{
+   Apptick = 4
+   Commstick = 4
+
+   kp = 0.2
+   ki = 0.05
+   kd = 0
+   min = -3
+   max = 3
+}
+
+ProcessConfig = pLogger
+{
+   Apptick = 4
+   Commstick = 4
+
+   File = LOG_pi
+   PATH = ./
+
+   AsyncLog = true
+   FileTimeStamp = true
+
+   WildCardLogging = true
+}
+
+ProcessConfig = uXMS
+{
+    Apptick = 4
+    Commstick = 4
+
+    var = OUTPUT_VOLTAGE, GET, MAIN
+}
+
