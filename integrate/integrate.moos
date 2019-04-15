@@ -16,8 +16,9 @@ ProcessConfig = ANTLER
   MSBetweenLaunches = 200
 
   Run = MOOSDB          @ NewConsole = false
-  Run = pLogger 	@ NewCondole = false
+  Run = pLogger 	@ NewConsole = false
   Run = pController	@ NewConsole = false
+  Run = ./heading.py    @ NewConsole = false
   Run = ./getOutput.py  @ NewConsole = false
 }
 
@@ -25,13 +26,16 @@ ProcessConfig = getOutput.py
 {
 }
 
+ProcessConfig = heading.py
+{
+}
 ProcessConfig = pController
 {
    Apptick = 4
    Commstick = 4
 
-   kp = 0.2
-   ki = 0.05
+   kp = 0.02
+   ki = 0
    kd = 0
    min = -3
    max = 3
