@@ -1,0 +1,37 @@
+//-------------------------------------------------
+// NAME: H. S.
+// FILE: calibration.moos
+//-------------------------------------------------
+
+ServerHost = localhost
+ServerPort = 9000
+Community  = alpha
+
+MOOSTimeWarp = 1
+
+//------------------------------------------
+// Antler configuration  block
+ProcessConfig = ANTLER
+{
+  MSBetweenLaunches = 200
+
+  Run = MOOSDB                  @ NewConsole = false
+  Run = ./controlMotorApp.py    @ NewConsole = false
+  Run = ./calibrationApp.py     @ NewConsole = false
+}
+
+ProcessConfig = controlMotorApp.py
+{
+}
+ProcessConfig = calibrationApp.py
+{
+}
+
+ProcessConfig = uXMS
+{
+    Apptick = 4
+    Commstick = 4
+
+    var = OUTPUT_VOLTAGE, GET, MAIN
+}
+
