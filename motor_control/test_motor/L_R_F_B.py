@@ -40,28 +40,28 @@ def main():
                 pi.set_mode(right_1, pigpio.INPUT)
                 pi.set_mode(right_2, pigpio.INPUT)
                 break
-            elif (input_str == "f"):
+            elif (input_str == "w"):
                 pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, vol)
                 pi.write(left_1,0)
                 pi.write(left_2,1)
                 pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, vol)
                 pi.write(right_1,1)
                 pi.write(right_2,0)
-            elif (input_str == "b"):
+            elif (input_str == "s"):
                 pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, vol)
                 pi.write(left_1,1)
                 pi.write(left_2,0)
                 pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, vol)
                 pi.write(right_1,0)
                 pi.write(right_2,1)
-            elif (input_str == "r"):
+            elif (input_str == "d"):
                 pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, vol)
                 pi.write(left_1,0)
                 pi.write(left_2,1)
                 pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, vol)
                 pi.write(right_1,0)
                 pi.write(right_2,1)
-            elif (input_str == "l"):
+            elif (input_str == "a"):
                 pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, vol)
                 pi.write(left_1,1)
                 pi.write(left_2,0)

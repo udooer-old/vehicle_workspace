@@ -20,6 +20,7 @@ class controlMotorMOOS(pymoos.comms):
         self.server = moos_community
         self.port = moos_port
         self.name = 'controlMotor'
+        self.state = ""
 
         self.set_on_connect_callback(self.__on_connect)
         self.set_on_mail_callback(self.__on_new_mail)

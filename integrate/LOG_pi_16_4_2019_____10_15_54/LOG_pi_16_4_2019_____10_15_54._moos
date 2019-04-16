@@ -1,3 +1,8 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./LOG_pi_16_4_2019_____10_15_54/LOG_pi_16_4_2019_____10_15_54._moos
+%% FILE OPENED ON  Thu Jan  1 01:00:00 1970
+%% LOGSTART               1555406153.48
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //-------------------------------------------------
 // NAME: M. S. Ibn Seddik, MIT CSAIL
 // FILE: getOutput.moos
@@ -37,8 +42,8 @@ ProcessConfig = pController
    kp = 0.15
    ki = 0
    kd = 0
-   min = -2.25
-   max = 2.25
+   min = -2
+   max = 2
 }
 
 ProcessConfig = pLogger
@@ -62,4 +67,5 @@ ProcessConfig = uXMS
 
     var = OUTPUT_VOLTAGE, GET, MAIN
 }
+
 

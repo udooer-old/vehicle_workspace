@@ -16,8 +16,23 @@ ProcessConfig = ANTLER
   MSBetweenLaunches = 200
 
   Run = MOOSDB                  @ NewConsole = false
+  Run = pLogger			@ NewConsole
   Run = ./controlMotorApp.py    @ NewConsole = false
   Run = ./calibrationApp.py     @ NewConsole = false
+}
+
+ProcessConfig = pLogger
+{
+  Apptick = 4
+  Commstick = 4
+
+  File = LOG
+  PATH = ./
+  
+  AsyncLog = true
+  FileTimeStamp = true
+
+  WildCardLogging = true
 }
 
 ProcessConfig = controlMotorApp.py

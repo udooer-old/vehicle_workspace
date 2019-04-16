@@ -43,7 +43,8 @@ class calibrationMOOS(pymoos.comms):
 
 def main():
     C = calibrationMOOS('localhost', 9000)
-    C.notify('CALIBRATION', "start", -1)
+    time.sleep(0.1)
+    C.notify('CALIBRATION', "finish", -1)
     calibration.start()
     C.notify('CALIBRATION', "finish", -1)
 

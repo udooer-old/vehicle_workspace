@@ -57,22 +57,20 @@ def main():
         print('Ctrl-C to end the program')
         while True:
             O = int(abs(T.output)/3.3*1000000)
-
-            if T.output > 0:
-                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)
-                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O)
+            if vol1 > 0:
+                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O+1)
+                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O+1)
                 pi.write(left_1,0)
                 pi.write(left_2,1)
                 pi.write(right_1,1)
                 pi.write(right_2,0)
-                time.sleep(0.1)
-            else:
-                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)
-                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O)
-                pi.write(left_1,1)
-                pi.write(left_2,0)
-                pi.write(right_1,0)
-                pi.write(right_2,1)
+             if T.output > 0:
+                pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O+1)
+                pi.hardware_PWM(PWM_PIN_right, PWM_FREQ, O+1)
+                pi.write(left_1,0)
+                pi.write(left_2,1)
+                pi.write(right_1,1)
+                pi.write(right_2,0)
                 time.sleep(0.1)
     
     except KeyboardInterrupt:
