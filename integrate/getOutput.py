@@ -56,7 +56,7 @@ def main():
     try:
         print('Ctrl-C to end the program')
         while True:
-            O = int(abs(T.output)/3.3*1000000)
+            O = int((abs(T.output)+0.8)/3.3*1000000)
 
             if T.output > 0:
                 pi.hardware_PWM(PWM_PIN_left, PWM_FREQ, O)

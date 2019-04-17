@@ -1,0 +1,2492 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./LOG_pi_17_4_2019_____11_17_56/LOG_pi_17_4_2019_____11_17_56.alog
+%% FILE OPENED ON  Thu Jan  1 01:00:00 1970
+%% LOGSTART                  1555496276
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.301           DB_EVENT             MOOSDB_alpha    connected=pController 
+0.658           LOGGER_DIRECTORY     pLogger         ./LOG_pi_17_4_2019_____11_17_56 
+0.661           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=0.661263,cpuload=4.408,memory_kb=1344,memory_max_kb=1508,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,",Subscribing="LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PLOGGER_CMD,",LogAuxSrc=false 
+0.923           DB_EVENT             MOOSDB_alpha    connected=getOutputPyMOOS 
+1.852           DB_TIME              MOOSDB_alpha    1555496277.84762 
+1.852           DB_UPTIME            MOOSDB_alpha    2.06579      
+1.852           DB_CLIENTS           MOOSDB_alpha    getOutputPyMOOS,pController,pLogger, 
+1.853           DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:17:57.847         MOOSDB_alpha         0.0 Hz S  getOutputPyMOOS,pContr...
+DB_EVENT             11:17:56.918         MOOSDB_alpha         1.2 Hz S  connected=getOutputPyMOOS
+DB_QOS               11:17:55.777         MOOSDB#1             0.0 Hz S                      
+DB_RWSUMMARY         11:17:55.777         MOOSDB#1             0.0 Hz S                      
+DB_TIME              11:17:57.847         MOOSDB_alpha         0.0 Hz D  1555496277.8         
+DB_UPTIME            11:17:57.847         MOOSDB_alpha         0.0 Hz D  2.1                  
+DB_VARSUMMARY        11:17:55.776         MOOSDB#1             0.0 Hz S                      
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:17:56.701         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           00:59:59.000         (write pending)      0.0 Hz ~  
+                   OUTPUT_VOLTAGE       11:17:57.641         pController          0.0 Hz D  0.0                  
+PCONTROLLER_ITER_GAP 11:17:57.847         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:17:57.641         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:17:56.891         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:17:56.701         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+1.853           DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0:0.224113:0.224113:0,pController=0:0.430822:0.370979:0,pLogger=0:0.715017:0.283003:0, 
+1.854           DB_RWSUMMARY         MOOSDB_alpha    getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+0.850           PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=0.652744,cpuload=3.76,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+0.850           APPCAST              pController     proc=pController!@#iter=1!@#node=alpha!@#iter=1!@#messages============================================= !@File:                                        !@============================================ !@my heading: 0!@desired heading: 0!@Alpha  Bravo  Charlie  Delta!@-----  -----  -------  -----!@one    two    three    four !@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.852           PCONTROLLER_ITER_GAP pController     1.00144      
+1.852           OUTPUT_VOLTAGE       pController     0.00000      
+1.852           PCONTROLLER_ITER_LEN pController     0.00092      
+2.102           PCONTROLLER_ITER_GAP pController     1.00323      
+2.103           OUTPUT_VOLTAGE       pController     0.00000      
+2.103           PCONTROLLER_ITER_LEN pController     0.00095      
+2.353           PCONTROLLER_ITER_GAP pController     1.00142      
+2.353           OUTPUT_VOLTAGE       pController     0.00000      
+2.353           PCONTROLLER_ITER_LEN pController     0.00089      
+2.604           PCONTROLLER_ITER_GAP pController     1.00327      
+2.604           OUTPUT_VOLTAGE       pController     0.00000      
+2.604           PCONTROLLER_ITER_LEN pController     0.00090      
+2.665           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=2.66513,cpuload=0.671,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+2.854           PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=2.65709,cpuload=0.4258,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+2.854           PCONTROLLER_ITER_GAP pController     1.00222      
+2.854           OUTPUT_VOLTAGE       pController     0.00000      
+2.854           PCONTROLLER_ITER_LEN pController     0.00064      
+3.105           PCONTROLLER_ITER_GAP pController     1.00306      
+3.105           OUTPUT_VOLTAGE       pController     0.00000      
+3.105           PCONTROLLER_ITER_LEN pController     0.00091      
+3.355           PCONTROLLER_ITER_GAP pController     1.00139      
+3.355           OUTPUT_VOLTAGE       pController     0.00000      
+3.355           PCONTROLLER_ITER_LEN pController     0.00087      
+3.606           PCONTROLLER_ITER_GAP pController     1.00338      
+3.606           OUTPUT_VOLTAGE       pController     0.00000      
+3.606           PCONTROLLER_ITER_LEN pController     0.00097      
+3.736           DB_EVENT             MOOSDB_alpha    connected=lsm9ds1 
+3.743           MY_HEADING           lsm9ds1         167.25770    
+3.755           MY_HEADING           lsm9ds1         167.14429    
+3.767           MY_HEADING           lsm9ds1         168.24398    
+3.779           MY_HEADING           lsm9ds1         168.31252    
+3.791           MY_HEADING           lsm9ds1         168.55638    
+3.804           MY_HEADING           lsm9ds1         167.38095    
+3.816           MY_HEADING           lsm9ds1         167.73284    
+3.828           MY_HEADING           lsm9ds1         168.05513    
+3.840           MY_HEADING           lsm9ds1         166.37245    
+3.852           MY_HEADING           lsm9ds1         167.38753    
+3.853           DB_TIME              MOOSDB_alpha    1555496279.84823 
+3.853           DB_UPTIME            MOOSDB_alpha    4.06639      
+3.853           DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+3.854           DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:17:59.848         MOOSDB_alpha         0.2 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:17:57.849         MOOSDB_alpha         0.0 Hz S  getOutputPyMOOS=0:0.22...
+DB_RWSUMMARY         11:17:57.849         MOOSDB_alpha         0.0 Hz S  getOutputPyMOOS=OUTPUT...
+DB_TIME              11:17:59.848         MOOSDB_alpha         0.2 Hz D  1555496279.8         
+DB_UPTIME            11:17:59.848         MOOSDB_alpha         0.2 Hz D  4.1                  
+DB_VARSUMMARY        11:17:57.848         MOOSDB_alpha         0.0 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:17:56.701         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:17:59.848         lsm9ds1              0.0 Hz D  167.4                
+OUTPUT_VOLTAGE       11:17:59.651         pController          0.0 Hz D  0.0                  
+PCONTROLLER_ITER_GAP 11:17:59.602         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:17:59.651         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:17:58.850         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:17:58.661         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+3.854           DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0:0.315905:0.224113:0,lsm9ds1=0:0.354052:0.354052:0,pController=0:0.51403:0.370979:0,pLogger=0:0.715017:0.247955:0, 
+3.854           DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+3.856           PCONTROLLER_ITER_GAP pController     1.00165      
+3.857           OUTPUT_VOLTAGE       pController     -2.00000     
+3.857           PCONTROLLER_ITER_LEN pController     0.00083      
+3.865           MY_HEADING           lsm9ds1         167.77189    
+3.877           MY_HEADING           lsm9ds1         167.05704    
+3.889           MY_HEADING           lsm9ds1         163.53767    
+3.901           MY_HEADING           lsm9ds1         165.32278    
+3.914           MY_HEADING           lsm9ds1         166.06791    
+3.926           MY_HEADING           lsm9ds1         166.54920    
+3.938           MY_HEADING           lsm9ds1         165.65426    
+3.950           MY_HEADING           lsm9ds1         166.21675    
+3.963           MY_HEADING           lsm9ds1         166.37762    
+3.975           MY_HEADING           lsm9ds1         164.63820    
+3.987           MY_HEADING           lsm9ds1         165.18176    
+4.000           MY_HEADING           lsm9ds1         166.61971    
+4.012           MY_HEADING           lsm9ds1         166.61971    
+4.025           MY_HEADING           lsm9ds1         163.88992    
+4.038           MY_HEADING           lsm9ds1         163.24696    
+4.050           MY_HEADING           lsm9ds1         164.77144    
+4.063           MY_HEADING           lsm9ds1         163.52620    
+4.076           MY_HEADING           lsm9ds1         161.77005    
+4.089           MY_HEADING           lsm9ds1         162.39731    
+4.102           MY_HEADING           lsm9ds1         163.47293    
+4.107           PCONTROLLER_ITER_GAP pController     1.00366      
+4.108           OUTPUT_VOLTAGE       pController     -2.00000     
+4.108           PCONTROLLER_ITER_LEN pController     0.00093      
+4.114           MY_HEADING           lsm9ds1         161.53754    
+4.126           MY_HEADING           lsm9ds1         160.36035    
+4.138           MY_HEADING           lsm9ds1         161.19340    
+4.150           MY_HEADING           lsm9ds1         160.26373    
+4.163           MY_HEADING           lsm9ds1         160.10191    
+4.175           MY_HEADING           lsm9ds1         160.04004    
+4.187           MY_HEADING           lsm9ds1         159.98870    
+4.199           MY_HEADING           lsm9ds1         158.75686    
+4.211           MY_HEADING           lsm9ds1         159.81079    
+4.224           MY_HEADING           lsm9ds1         158.97131    
+4.236           MY_HEADING           lsm9ds1         159.54908    
+4.248           MY_HEADING           lsm9ds1         158.10057    
+4.260           MY_HEADING           lsm9ds1         158.30437    
+4.272           MY_HEADING           lsm9ds1         158.11998    
+4.285           MY_HEADING           lsm9ds1         156.60763    
+4.297           MY_HEADING           lsm9ds1         157.11268    
+4.309           MY_HEADING           lsm9ds1         157.20927    
+4.321           MY_HEADING           lsm9ds1         157.24128    
+4.333           MY_HEADING           lsm9ds1         157.01079    
+4.346           MY_HEADING           lsm9ds1         156.50912    
+4.358           MY_HEADING           lsm9ds1         156.22689    
+4.358           PCONTROLLER_ITER_GAP pController     1.00178      
+4.358           OUTPUT_VOLTAGE       pController     -2.00000     
+4.358           PCONTROLLER_ITER_LEN pController     0.00090      
+4.370           MY_HEADING           lsm9ds1         155.30644    
+4.383           MY_HEADING           lsm9ds1         155.68562    
+4.395           MY_HEADING           lsm9ds1         156.21449    
+4.407           MY_HEADING           lsm9ds1         153.90107    
+4.420           MY_HEADING           lsm9ds1         153.88034    
+4.432           MY_HEADING           lsm9ds1         154.39586    
+4.444           MY_HEADING           lsm9ds1         153.29442    
+4.457           MY_HEADING           lsm9ds1         152.84437    
+4.469           MY_HEADING           lsm9ds1         153.66802    
+4.481           MY_HEADING           lsm9ds1         153.49606    
+4.494           MY_HEADING           lsm9ds1         151.71636    
+4.507           MY_HEADING           lsm9ds1         151.64001    
+4.519           MY_HEADING           lsm9ds1         152.06192    
+4.532           MY_HEADING           lsm9ds1         150.93395    
+4.545           MY_HEADING           lsm9ds1         150.72154    
+4.557           MY_HEADING           lsm9ds1         151.43383    
+4.570           MY_HEADING           lsm9ds1         150.03523    
+4.583           MY_HEADING           lsm9ds1         148.22558    
+4.595           MY_HEADING           lsm9ds1         148.87161    
+4.608           MY_HEADING           lsm9ds1         148.21002    
+4.609           PCONTROLLER_ITER_GAP pController     1.00366      
+4.609           OUTPUT_VOLTAGE       pController     -2.00000     
+4.609           PCONTROLLER_ITER_LEN pController     0.00091      
+4.620           MY_HEADING           lsm9ds1         148.16911    
+4.633           MY_HEADING           lsm9ds1         147.31133    
+4.646           MY_HEADING           lsm9ds1         148.14558    
+4.658           MY_HEADING           lsm9ds1         146.24846    
+4.671           MY_HEADING           lsm9ds1         145.53009    
+4.672           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=4.67227,cpuload=1.972,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+4.684           MY_HEADING           lsm9ds1         145.32565    
+4.696           MY_HEADING           lsm9ds1         146.05373    
+4.709           MY_HEADING           lsm9ds1         143.74890    
+4.722           MY_HEADING           lsm9ds1         144.66363    
+4.735           MY_HEADING           lsm9ds1         143.51484    
+4.748           MY_HEADING           lsm9ds1         141.55596    
+4.760           MY_HEADING           lsm9ds1         142.88427    
+4.773           MY_HEADING           lsm9ds1         142.83286    
+4.785           MY_HEADING           lsm9ds1         143.83968    
+4.798           MY_HEADING           lsm9ds1         142.85126    
+4.811           MY_HEADING           lsm9ds1         143.63545    
+4.823           MY_HEADING           lsm9ds1         142.89016    
+4.836           MY_HEADING           lsm9ds1         142.36690    
+4.848           MY_HEADING           lsm9ds1         141.34290    
+4.859           PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=4.66238,cpuload=1.456,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+4.859           PCONTROLLER_ITER_GAP pController     1.00254      
+4.859           OUTPUT_VOLTAGE       pController     -2.00000     
+4.859           PCONTROLLER_ITER_LEN pController     0.00057      
+4.861           MY_HEADING           lsm9ds1         142.04577    
+4.873           MY_HEADING           lsm9ds1         142.31071    
+4.886           MY_HEADING           lsm9ds1         141.68774    
+4.898           MY_HEADING           lsm9ds1         141.58904    
+4.911           MY_HEADING           lsm9ds1         143.19042    
+4.923           MY_HEADING           lsm9ds1         140.67350    
+4.936           MY_HEADING           lsm9ds1         139.79928    
+4.948           MY_HEADING           lsm9ds1         140.34306    
+4.961           MY_HEADING           lsm9ds1         139.81753    
+4.973           MY_HEADING           lsm9ds1         139.52633    
+4.986           MY_HEADING           lsm9ds1         139.49604    
+4.998           MY_HEADING           lsm9ds1         138.75193    
+5.011           MY_HEADING           lsm9ds1         137.85324    
+5.023           MY_HEADING           lsm9ds1         137.15717    
+5.036           MY_HEADING           lsm9ds1         137.79955    
+5.048           MY_HEADING           lsm9ds1         136.10709    
+5.061           MY_HEADING           lsm9ds1         135.18598    
+5.073           MY_HEADING           lsm9ds1         136.26160    
+5.086           MY_HEADING           lsm9ds1         135.41424    
+5.098           MY_HEADING           lsm9ds1         133.65057    
+5.110           PCONTROLLER_ITER_GAP pController     1.00317      
+5.110           OUTPUT_VOLTAGE       pController     -2.00000     
+5.110           PCONTROLLER_ITER_LEN pController     0.00089      
+5.111           MY_HEADING           lsm9ds1         134.71932    
+5.124           MY_HEADING           lsm9ds1         134.14895    
+5.136           MY_HEADING           lsm9ds1         132.94731    
+5.149           MY_HEADING           lsm9ds1         133.48459    
+5.161           MY_HEADING           lsm9ds1         130.48899    
+5.174           MY_HEADING           lsm9ds1         131.70210    
+5.186           MY_HEADING           lsm9ds1         131.39992    
+5.199           MY_HEADING           lsm9ds1         130.88696    
+5.211           MY_HEADING           lsm9ds1         128.98648    
+5.223           MY_HEADING           lsm9ds1         129.33143    
+5.236           MY_HEADING           lsm9ds1         128.18596    
+5.248           MY_HEADING           lsm9ds1         128.18596    
+5.260           MY_HEADING           lsm9ds1         126.32387    
+5.272           MY_HEADING           lsm9ds1         127.87037    
+5.284           MY_HEADING           lsm9ds1         126.79529    
+5.296           MY_HEADING           lsm9ds1         127.64327    
+5.309           MY_HEADING           lsm9ds1         126.15980    
+5.321           MY_HEADING           lsm9ds1         124.75826    
+5.333           MY_HEADING           lsm9ds1         126.18233    
+5.345           MY_HEADING           lsm9ds1         125.13679    
+5.357           MY_HEADING           lsm9ds1         124.10838    
+5.361           PCONTROLLER_ITER_GAP pController     1.00170      
+5.361           OUTPUT_VOLTAGE       pController     -2.00000     
+5.361           PCONTROLLER_ITER_LEN pController     0.00096      
+5.370           MY_HEADING           lsm9ds1         123.27442    
+5.382           MY_HEADING           lsm9ds1         123.05135    
+5.394           MY_HEADING           lsm9ds1         122.38713    
+5.406           MY_HEADING           lsm9ds1         122.19851    
+5.419           MY_HEADING           lsm9ds1         121.07186    
+5.431           MY_HEADING           lsm9ds1         120.83187    
+5.443           MY_HEADING           lsm9ds1         120.71557    
+5.456           MY_HEADING           lsm9ds1         120.97910    
+5.468           MY_HEADING           lsm9ds1         122.01846    
+5.480           MY_HEADING           lsm9ds1         121.46657    
+5.492           MY_HEADING           lsm9ds1         119.34906    
+5.505           MY_HEADING           lsm9ds1         119.30013    
+5.517           MY_HEADING           lsm9ds1         119.26131    
+5.529           MY_HEADING           lsm9ds1         117.94454    
+5.542           MY_HEADING           lsm9ds1         116.68593    
+5.554           MY_HEADING           lsm9ds1         116.13162    
+5.566           MY_HEADING           lsm9ds1         115.64495    
+5.578           MY_HEADING           lsm9ds1         116.27693    
+5.591           MY_HEADING           lsm9ds1         116.09134    
+5.603           MY_HEADING           lsm9ds1         114.52200    
+5.611           PCONTROLLER_ITER_GAP pController     1.00373      
+5.612           OUTPUT_VOLTAGE       pController     -2.00000     
+5.612           PCONTROLLER_ITER_LEN pController     0.00088      
+5.615           MY_HEADING           lsm9ds1         115.19340    
+5.628           MY_HEADING           lsm9ds1         113.86711    
+5.640           MY_HEADING           lsm9ds1         115.68731    
+5.652           MY_HEADING           lsm9ds1         114.24158    
+5.664           MY_HEADING           lsm9ds1         113.59058    
+5.677           MY_HEADING           lsm9ds1         109.73326    
+5.689           MY_HEADING           lsm9ds1         111.14006    
+5.701           MY_HEADING           lsm9ds1         110.71520    
+5.714           MY_HEADING           lsm9ds1         110.41395    
+5.726           MY_HEADING           lsm9ds1         110.08799    
+5.739           MY_HEADING           lsm9ds1         108.79551    
+5.751           MY_HEADING           lsm9ds1         106.76107    
+5.763           MY_HEADING           lsm9ds1         107.02016    
+5.776           MY_HEADING           lsm9ds1         106.51769    
+5.788           MY_HEADING           lsm9ds1         104.98588    
+5.801           MY_HEADING           lsm9ds1         104.90978    
+5.813           MY_HEADING           lsm9ds1         104.81108    
+5.825           MY_HEADING           lsm9ds1         104.23234    
+5.838           MY_HEADING           lsm9ds1         103.35113    
+5.850           MY_HEADING           lsm9ds1         101.95914    
+5.862           PCONTROLLER_ITER_GAP pController     1.00170      
+5.862           OUTPUT_VOLTAGE       pController     -2.00000     
+5.862           PCONTROLLER_ITER_LEN pController     0.00094      
+5.863           DB_TIME              MOOSDB_alpha    1555496281.85840 
+5.863           DB_UPTIME            MOOSDB_alpha    6.07657      
+5.863           DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+5.863           MY_HEADING           lsm9ds1         101.67326    
+5.864           DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:01.858         MOOSDB_alpha         0.4 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:17:59.849         MOOSDB_alpha         0.2 Hz S  getOutputPyMOOS=0:0.31...
+DB_RWSUMMARY         11:17:59.849         MOOSDB_alpha         0.2 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:01.858         MOOSDB_alpha         0.4 Hz D  1555496281.9         
+DB_UPTIME            11:18:01.858         MOOSDB_alpha         0.4 Hz D  6.1                  
+DB_VARSUMMARY        11:17:59.849         MOOSDB_alpha         0.2 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:17:56.701         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:01.846         lsm9ds1              73.5Hz D  102.0                
+OUTPUT_VOLTAGE       11:18:01.612         pController          0.0 Hz D  -2.0                 
+PCONTROLLER_ITER_GAP 11:18:01.858         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:01.612         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:00.855         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:00.668         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+5.864           DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0:0.315905:0.224113:0,lsm9ds1=0:0.354052:0.273943:0,pController=0.828028:0.833988:0.370979:0.516748,pLogger=0.243902:0.715017:0.243902:0.367165, 
+5.864           DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+5.876           MY_HEADING           lsm9ds1         99.97285     
+5.888           MY_HEADING           lsm9ds1         99.73820     
+5.901           MY_HEADING           lsm9ds1         98.72328     
+5.913           MY_HEADING           lsm9ds1         97.96924     
+5.926           MY_HEADING           lsm9ds1         95.73528     
+5.939           MY_HEADING           lsm9ds1         95.64845     
+5.951           MY_HEADING           lsm9ds1         96.08003     
+5.963           MY_HEADING           lsm9ds1         94.87020     
+5.976           MY_HEADING           lsm9ds1         95.23505     
+5.988           MY_HEADING           lsm9ds1         95.25512     
+6.000           MY_HEADING           lsm9ds1         93.59925     
+6.013           MY_HEADING           lsm9ds1         94.04821     
+6.026           MY_HEADING           lsm9ds1         92.67121     
+6.039           MY_HEADING           lsm9ds1         93.48860     
+6.051           MY_HEADING           lsm9ds1         92.50094     
+6.064           MY_HEADING           lsm9ds1         92.50800     
+6.077           MY_HEADING           lsm9ds1         91.60253     
+6.090           MY_HEADING           lsm9ds1         89.92067     
+6.102           MY_HEADING           lsm9ds1         89.47418     
+6.113           PCONTROLLER_ITER_GAP pController     1.00375      
+6.113           OUTPUT_VOLTAGE       pController     -2.00000     
+6.113           PCONTROLLER_ITER_LEN pController     0.00095      
+6.115           MY_HEADING           lsm9ds1         91.24406     
+6.127           MY_HEADING           lsm9ds1         88.38133     
+6.140           MY_HEADING           lsm9ds1         88.03012     
+6.152           MY_HEADING           lsm9ds1         89.08700     
+6.164           MY_HEADING           lsm9ds1         86.88271     
+6.177           MY_HEADING           lsm9ds1         86.87289     
+6.189           MY_HEADING           lsm9ds1         88.11877     
+6.202           MY_HEADING           lsm9ds1         87.81990     
+6.214           MY_HEADING           lsm9ds1         87.81219     
+6.226           MY_HEADING           lsm9ds1         84.02265     
+6.239           MY_HEADING           lsm9ds1         85.04090     
+6.251           MY_HEADING           lsm9ds1         84.14399     
+6.263           MY_HEADING           lsm9ds1         83.58096     
+6.276           MY_HEADING           lsm9ds1         83.88523     
+6.288           MY_HEADING           lsm9ds1         82.56251     
+6.301           MY_HEADING           lsm9ds1         81.51165     
+6.314           MY_HEADING           lsm9ds1         80.55448     
+6.326           MY_HEADING           lsm9ds1         80.34694     
+6.339           MY_HEADING           lsm9ds1         77.92344     
+6.351           MY_HEADING           lsm9ds1         77.24757     
+6.363           PCONTROLLER_ITER_GAP pController     1.00176      
+6.363           OUTPUT_VOLTAGE       pController     -2.00000     
+6.364           PCONTROLLER_ITER_LEN pController     0.00097      
+6.364           MY_HEADING           lsm9ds1         76.75490     
+6.377           MY_HEADING           lsm9ds1         75.61660     
+6.389           MY_HEADING           lsm9ds1         74.09850     
+6.405           MY_HEADING           lsm9ds1         72.93102     
+6.418           MY_HEADING           lsm9ds1         72.29160     
+6.431           MY_HEADING           lsm9ds1         71.98000     
+6.444           MY_HEADING           lsm9ds1         72.48688     
+6.458           MY_HEADING           lsm9ds1         70.59645     
+6.471           MY_HEADING           lsm9ds1         69.67686     
+6.483           MY_HEADING           lsm9ds1         69.60091     
+6.495           MY_HEADING           lsm9ds1         69.46629     
+6.507           MY_HEADING           lsm9ds1         69.56372     
+6.519           MY_HEADING           lsm9ds1         67.76612     
+6.531           MY_HEADING           lsm9ds1         67.94544     
+6.543           MY_HEADING           lsm9ds1         67.75898     
+6.556           MY_HEADING           lsm9ds1         64.95630     
+6.568           MY_HEADING           lsm9ds1         63.63985     
+6.580           MY_HEADING           lsm9ds1         62.58669     
+6.592           MY_HEADING           lsm9ds1         63.56128     
+6.604           MY_HEADING           lsm9ds1         61.96047     
+6.614           PCONTROLLER_ITER_GAP pController     1.00373      
+6.614           OUTPUT_VOLTAGE       pController     -2.00000     
+6.614           PCONTROLLER_ITER_LEN pController     0.00098      
+6.617           MY_HEADING           lsm9ds1         60.72677     
+6.629           MY_HEADING           lsm9ds1         60.47568     
+6.642           MY_HEADING           lsm9ds1         61.16728     
+6.654           MY_HEADING           lsm9ds1         58.89795     
+6.667           MY_HEADING           lsm9ds1         59.24038     
+6.678           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=6.67806,cpuload=1.785,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+6.680           MY_HEADING           lsm9ds1         57.42245     
+6.692           MY_HEADING           lsm9ds1         56.44122     
+6.705           MY_HEADING           lsm9ds1         55.73226     
+6.717           MY_HEADING           lsm9ds1         56.82078     
+6.730           MY_HEADING           lsm9ds1         57.76186     
+6.742           MY_HEADING           lsm9ds1         54.15158     
+6.755           MY_HEADING           lsm9ds1         54.12611     
+6.768           MY_HEADING           lsm9ds1         53.63579     
+6.780           MY_HEADING           lsm9ds1         52.65476     
+6.793           MY_HEADING           lsm9ds1         53.23059     
+6.805           MY_HEADING           lsm9ds1         53.01214     
+6.818           MY_HEADING           lsm9ds1         52.62204     
+6.831           MY_HEADING           lsm9ds1         50.60941     
+6.843           MY_HEADING           lsm9ds1         50.06362     
+6.856           MY_HEADING           lsm9ds1         48.94990     
+6.865           PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=6.66794,cpuload=1.48,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+6.865           PCONTROLLER_ITER_GAP pController     1.00268      
+6.865           OUTPUT_VOLTAGE       pController     -2.00000     
+6.865           PCONTROLLER_ITER_LEN pController     0.00064      
+6.869           MY_HEADING           lsm9ds1         45.80139     
+6.881           MY_HEADING           lsm9ds1         46.49907     
+6.893           MY_HEADING           lsm9ds1         46.35909     
+6.906           MY_HEADING           lsm9ds1         45.53233     
+6.919           MY_HEADING           lsm9ds1         42.90605     
+6.931           MY_HEADING           lsm9ds1         42.91995     
+6.943           MY_HEADING           lsm9ds1         43.12138     
+6.956           MY_HEADING           lsm9ds1         39.81111     
+6.968           MY_HEADING           lsm9ds1         40.43892     
+6.980           MY_HEADING           lsm9ds1         39.13291     
+6.993           MY_HEADING           lsm9ds1         38.48063     
+7.005           MY_HEADING           lsm9ds1         38.81513     
+7.018           MY_HEADING           lsm9ds1         39.60784     
+7.030           MY_HEADING           lsm9ds1         37.75511     
+7.043           MY_HEADING           lsm9ds1         38.00645     
+7.055           MY_HEADING           lsm9ds1         36.77492     
+7.067           MY_HEADING           lsm9ds1         35.35181     
+7.080           MY_HEADING           lsm9ds1         34.77274     
+7.092           MY_HEADING           lsm9ds1         32.88289     
+7.104           MY_HEADING           lsm9ds1         33.67144     
+7.115           PCONTROLLER_ITER_GAP pController     0.99958      
+7.115           OUTPUT_VOLTAGE       pController     -2.00000     
+7.115           PCONTROLLER_ITER_LEN pController     0.00128      
+7.117           MY_HEADING           lsm9ds1         32.81827     
+7.129           MY_HEADING           lsm9ds1         31.50607     
+7.142           MY_HEADING           lsm9ds1         31.89205     
+7.154           MY_HEADING           lsm9ds1         31.96764     
+7.167           MY_HEADING           lsm9ds1         30.52075     
+7.179           MY_HEADING           lsm9ds1         29.62565     
+7.192           MY_HEADING           lsm9ds1         29.88368     
+7.207           MY_HEADING           lsm9ds1         27.94449     
+7.219           MY_HEADING           lsm9ds1         27.44661     
+7.232           MY_HEADING           lsm9ds1         27.22104     
+7.244           MY_HEADING           lsm9ds1         25.03150     
+7.257           MY_HEADING           lsm9ds1         24.06357     
+7.269           MY_HEADING           lsm9ds1         22.95478     
+7.282           MY_HEADING           lsm9ds1         24.18434     
+7.295           MY_HEADING           lsm9ds1         22.61666     
+7.307           MY_HEADING           lsm9ds1         20.15084     
+7.320           MY_HEADING           lsm9ds1         20.09856     
+7.333           MY_HEADING           lsm9ds1         19.77762     
+7.346           MY_HEADING           lsm9ds1         19.07043     
+7.358           MY_HEADING           lsm9ds1         19.33872     
+7.365           PCONTROLLER_ITER_GAP pController     1.00229      
+7.366           OUTPUT_VOLTAGE       pController     -1.54710     
+7.366           PCONTROLLER_ITER_LEN pController     0.00111      
+7.370           MY_HEADING           lsm9ds1         19.83116     
+7.383           MY_HEADING           lsm9ds1         18.16840     
+7.395           MY_HEADING           lsm9ds1         15.99272     
+7.407           MY_HEADING           lsm9ds1         15.65591     
+7.419           MY_HEADING           lsm9ds1         14.68506     
+7.432           MY_HEADING           lsm9ds1         12.67730     
+7.445           MY_HEADING           lsm9ds1         13.52696     
+7.458           MY_HEADING           lsm9ds1         12.18136     
+7.470           MY_HEADING           lsm9ds1         11.03056     
+7.483           MY_HEADING           lsm9ds1         10.97143     
+7.496           MY_HEADING           lsm9ds1         10.11038     
+7.508           MY_HEADING           lsm9ds1         9.19607      
+7.521           MY_HEADING           lsm9ds1         7.88734      
+7.534           MY_HEADING           lsm9ds1         8.42622      
+7.546           MY_HEADING           lsm9ds1         7.52421      
+7.559           MY_HEADING           lsm9ds1         7.09941      
+7.572           MY_HEADING           lsm9ds1         5.89288      
+7.584           MY_HEADING           lsm9ds1         5.56479      
+7.597           MY_HEADING           lsm9ds1         3.86987      
+7.610           MY_HEADING           lsm9ds1         5.22669      
+7.616           PCONTROLLER_ITER_GAP pController     1.00389      
+7.617           OUTPUT_VOLTAGE       pController     -0.41814     
+7.617           PCONTROLLER_ITER_LEN pController     0.00095      
+7.622           MY_HEADING           lsm9ds1         6.30148      
+7.635           MY_HEADING           lsm9ds1         3.01168      
+7.647           MY_HEADING           lsm9ds1         1.93409      
+7.660           MY_HEADING           lsm9ds1         0.54241      
+7.672           MY_HEADING           lsm9ds1         359.33333    
+7.684           MY_HEADING           lsm9ds1         359.97952    
+7.697           MY_HEADING           lsm9ds1         358.74161    
+7.709           MY_HEADING           lsm9ds1         359.06440    
+7.722           MY_HEADING           lsm9ds1         356.87680    
+7.734           MY_HEADING           lsm9ds1         358.46209    
+7.746           MY_HEADING           lsm9ds1         355.15701    
+7.759           MY_HEADING           lsm9ds1         355.04350    
+7.771           MY_HEADING           lsm9ds1         356.00407    
+7.784           MY_HEADING           lsm9ds1         356.69813    
+7.796           MY_HEADING           lsm9ds1         355.22353    
+7.808           MY_HEADING           lsm9ds1         354.20411    
+7.821           MY_HEADING           lsm9ds1         354.74597    
+7.833           MY_HEADING           lsm9ds1         354.48442    
+7.846           MY_HEADING           lsm9ds1         353.70548    
+7.859           MY_HEADING           lsm9ds1         352.72215    
+7.867           PCONTROLLER_ITER_GAP pController     1.00178      
+7.867           OUTPUT_VOLTAGE       pController     0.58223      
+7.867           PCONTROLLER_ITER_LEN pController     0.00084      
+7.867           DB_TIME              MOOSDB_alpha    1555496283.86299 
+7.867           DB_UPTIME            MOOSDB_alpha    8.08116      
+7.867           DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+7.869           DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:03.863         MOOSDB_alpha         0.4 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:01.859         MOOSDB_alpha         0.4 Hz S  getOutputPyMOOS=0:0.31...
+DB_RWSUMMARY         11:18:01.860         MOOSDB_alpha         0.4 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:03.862         MOOSDB_alpha         0.4 Hz D  1555496283.9         
+DB_UPTIME            11:18:03.862         MOOSDB_alpha         0.4 Hz D  8.1                  
+DB_VARSUMMARY        11:18:01.859         MOOSDB_alpha         0.4 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:17:56.701         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:03.855         lsm9ds1              80.4Hz D  352.7                
+OUTPUT_VOLTAGE       11:18:03.618         pController          0.0 Hz D  -0.4                 
+PCONTROLLER_ITER_GAP 11:18:03.862         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:03.618         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:02.860         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:02.674         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+7.869           DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.231981:0.315905:0.224113:0.275803,lsm9ds1=0.287056:0.354052:0.273943:0.307035,pController=0.345945:0.833988:0.345945:0.420332,pLogger=0.221968:0.715017:0.221968:0.362778, 
+7.869           DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+7.872           MY_HEADING           lsm9ds1         353.17670    
+7.885           MY_HEADING           lsm9ds1         350.22867    
+7.898           MY_HEADING           lsm9ds1         350.47285    
+7.910           MY_HEADING           lsm9ds1         351.41245    
+7.923           MY_HEADING           lsm9ds1         350.66780    
+7.936           MY_HEADING           lsm9ds1         349.43556    
+7.949           MY_HEADING           lsm9ds1         349.57556    
+7.961           MY_HEADING           lsm9ds1         344.84941    
+7.974           MY_HEADING           lsm9ds1         346.87510    
+7.987           MY_HEADING           lsm9ds1         344.62461    
+8.000           MY_HEADING           lsm9ds1         343.11380    
+8.013           MY_HEADING           lsm9ds1         345.27495    
+8.025           MY_HEADING           lsm9ds1         344.51254    
+8.038           MY_HEADING           lsm9ds1         342.83307    
+8.051           MY_HEADING           lsm9ds1         343.57660    
+8.064           MY_HEADING           lsm9ds1         343.88166    
+8.076           MY_HEADING           lsm9ds1         340.57319    
+8.089           MY_HEADING           lsm9ds1         342.83466    
+8.102           MY_HEADING           lsm9ds1         341.90018    
+8.115           MY_HEADING           lsm9ds1         341.22946    
+8.118           PCONTROLLER_ITER_GAP pController     1.00350      
+8.118           OUTPUT_VOLTAGE       pController     1.50164      
+8.118           PCONTROLLER_ITER_LEN pController     0.00089      
+8.127           MY_HEADING           lsm9ds1         339.46075    
+8.140           MY_HEADING           lsm9ds1         340.21683    
+8.153           MY_HEADING           lsm9ds1         339.73455    
+8.166           MY_HEADING           lsm9ds1         338.24079    
+8.179           MY_HEADING           lsm9ds1         337.21380    
+8.191           MY_HEADING           lsm9ds1         338.12952    
+8.204           MY_HEADING           lsm9ds1         339.53013    
+8.217           MY_HEADING           lsm9ds1         337.14217    
+8.230           MY_HEADING           lsm9ds1         336.94061    
+8.242           MY_HEADING           lsm9ds1         338.16252    
+8.255           MY_HEADING           lsm9ds1         336.75832    
+8.268           MY_HEADING           lsm9ds1         337.05269    
+8.281           MY_HEADING           lsm9ds1         337.27330    
+8.293           MY_HEADING           lsm9ds1         336.46869    
+8.306           MY_HEADING           lsm9ds1         336.06368    
+8.319           MY_HEADING           lsm9ds1         336.73004    
+8.332           MY_HEADING           lsm9ds1         335.95603    
+8.344           MY_HEADING           lsm9ds1         336.36869    
+8.357           MY_HEADING           lsm9ds1         336.01215    
+8.368           PCONTROLLER_ITER_GAP pController     1.00166      
+8.368           OUTPUT_VOLTAGE       pController     1.91903      
+8.368           PCONTROLLER_ITER_LEN pController     0.00092      
+8.371           MY_HEADING           lsm9ds1         336.86147    
+8.384           MY_HEADING           lsm9ds1         336.46298    
+8.397           MY_HEADING           lsm9ds1         336.34696    
+8.412           MY_HEADING           lsm9ds1         337.01273    
+8.424           MY_HEADING           lsm9ds1         336.35670    
+8.436           MY_HEADING           lsm9ds1         336.11932    
+8.448           MY_HEADING           lsm9ds1         337.41802    
+8.461           MY_HEADING           lsm9ds1         336.55250    
+8.473           MY_HEADING           lsm9ds1         335.96614    
+8.485           MY_HEADING           lsm9ds1         337.51676    
+8.497           MY_HEADING           lsm9ds1         336.49937    
+8.509           MY_HEADING           lsm9ds1         336.78562    
+8.522           MY_HEADING           lsm9ds1         335.36563    
+8.534           MY_HEADING           lsm9ds1         337.47507    
+8.546           MY_HEADING           lsm9ds1         337.25892    
+8.558           MY_HEADING           lsm9ds1         337.47431    
+8.570           MY_HEADING           lsm9ds1         337.92814    
+8.583           MY_HEADING           lsm9ds1         337.67486    
+8.595           MY_HEADING           lsm9ds1         338.33116    
+8.607           MY_HEADING           lsm9ds1         337.63045    
+8.619           PCONTROLLER_ITER_GAP pController     1.00384      
+8.619           OUTPUT_VOLTAGE       pController     1.78956      
+8.619           PCONTROLLER_ITER_LEN pController     0.00091      
+8.620           MY_HEADING           lsm9ds1         338.28708    
+8.632           MY_HEADING           lsm9ds1         338.36740    
+8.644           MY_HEADING           lsm9ds1         337.60770    
+8.656           MY_HEADING           lsm9ds1         337.94631    
+8.669           MY_HEADING           lsm9ds1         338.28857    
+8.681           MY_HEADING           lsm9ds1         337.04420    
+8.684           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=8.6838,cpuload=1.911,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+8.693           MY_HEADING           lsm9ds1         337.25892    
+8.705           MY_HEADING           lsm9ds1         338.40122    
+8.718           MY_HEADING           lsm9ds1         338.63009    
+8.730           MY_HEADING           lsm9ds1         338.30047    
+8.742           MY_HEADING           lsm9ds1         338.69556    
+8.754           MY_HEADING           lsm9ds1         339.20652    
+8.766           MY_HEADING           lsm9ds1         338.22792    
+8.779           MY_HEADING           lsm9ds1         339.47271    
+8.791           MY_HEADING           lsm9ds1         340.76280    
+8.803           MY_HEADING           lsm9ds1         339.39073    
+8.816           MY_HEADING           lsm9ds1         339.38622    
+8.829           MY_HEADING           lsm9ds1         340.92536    
+8.841           MY_HEADING           lsm9ds1         340.10410    
+8.854           MY_HEADING           lsm9ds1         340.10410    
+8.866           MY_HEADING           lsm9ds1         340.67703    
+8.870           PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=8.6727,cpuload=1.422,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+8.870           PCONTROLLER_ITER_GAP pController     1.00248      
+8.870           OUTPUT_VOLTAGE       pController     1.54584      
+8.870           PCONTROLLER_ITER_LEN pController     0.00102      
+8.878           MY_HEADING           lsm9ds1         343.09905    
+8.891           MY_HEADING           lsm9ds1         341.04728    
+8.904           MY_HEADING           lsm9ds1         341.18649    
+8.916           MY_HEADING           lsm9ds1         341.76409    
+8.929           MY_HEADING           lsm9ds1         343.45618    
+8.941           MY_HEADING           lsm9ds1         342.10985    
+8.954           MY_HEADING           lsm9ds1         341.70063    
+8.966           MY_HEADING           lsm9ds1         344.08102    
+8.979           MY_HEADING           lsm9ds1         341.71450    
+8.991           MY_HEADING           lsm9ds1         342.60648    
+9.004           MY_HEADING           lsm9ds1         344.31409    
+9.016           MY_HEADING           lsm9ds1         344.85313    
+9.029           MY_HEADING           lsm9ds1         343.69299    
+9.041           MY_HEADING           lsm9ds1         344.60470    
+9.054           MY_HEADING           lsm9ds1         345.97254    
+9.066           MY_HEADING           lsm9ds1         343.97886    
+9.079           MY_HEADING           lsm9ds1         344.67643    
+9.091           MY_HEADING           lsm9ds1         345.09511    
+9.104           MY_HEADING           lsm9ds1         346.68569    
+9.116           MY_HEADING           lsm9ds1         345.93788    
+9.120           PCONTROLLER_ITER_GAP pController     1.00272      
+9.121           OUTPUT_VOLTAGE       pController     1.12497      
+9.121           PCONTROLLER_ITER_LEN pController     0.00110      
+9.129           MY_HEADING           lsm9ds1         348.18789    
+9.141           MY_HEADING           lsm9ds1         347.05616    
+9.154           MY_HEADING           lsm9ds1         346.81945    
+9.166           MY_HEADING           lsm9ds1         348.47016    
+9.178           MY_HEADING           lsm9ds1         347.75134    
+9.191           MY_HEADING           lsm9ds1         348.20879    
+9.203           MY_HEADING           lsm9ds1         349.77113    
+9.215           MY_HEADING           lsm9ds1         350.38846    
+9.227           MY_HEADING           lsm9ds1         349.72388    
+9.240           MY_HEADING           lsm9ds1         349.72388    
+9.252           MY_HEADING           lsm9ds1         350.28559    
+9.264           MY_HEADING           lsm9ds1         351.89763    
+9.276           MY_HEADING           lsm9ds1         351.69365    
+9.289           MY_HEADING           lsm9ds1         351.46739    
+9.301           MY_HEADING           lsm9ds1         352.44291    
+9.313           MY_HEADING           lsm9ds1         353.75176    
+9.326           MY_HEADING           lsm9ds1         352.64005    
+9.338           MY_HEADING           lsm9ds1         354.01712    
+9.350           MY_HEADING           lsm9ds1         355.03924    
+9.362           MY_HEADING           lsm9ds1         352.92951    
+9.371           PCONTROLLER_ITER_GAP pController     1.00194      
+9.372           OUTPUT_VOLTAGE       pController     0.56564      
+9.372           PCONTROLLER_ITER_LEN pController     0.00488      
+9.375           MY_HEADING           lsm9ds1         353.98414    
+9.387           MY_HEADING           lsm9ds1         355.96779    
+9.400           MY_HEADING           lsm9ds1         354.38576    
+9.412           MY_HEADING           lsm9ds1         355.45836    
+9.424           MY_HEADING           lsm9ds1         356.82223    
+9.437           MY_HEADING           lsm9ds1         355.39237    
+9.449           MY_HEADING           lsm9ds1         355.85731    
+9.461           MY_HEADING           lsm9ds1         357.12823    
+9.473           MY_HEADING           lsm9ds1         358.71633    
+9.485           MY_HEADING           lsm9ds1         358.99790    
+9.498           MY_HEADING           lsm9ds1         358.60978    
+9.510           MY_HEADING           lsm9ds1         0.01905      
+9.523           MY_HEADING           lsm9ds1         350.25693    
+9.536           MY_HEADING           lsm9ds1         358.07531    
+9.548           MY_HEADING           lsm9ds1         0.21079      
+9.561           MY_HEADING           lsm9ds1         359.74904    
+9.574           MY_HEADING           lsm9ds1         359.98072    
+9.586           MY_HEADING           lsm9ds1         0.17292      
+9.599           MY_HEADING           lsm9ds1         2.52957      
+9.612           MY_HEADING           lsm9ds1         0.96049      
+9.621           PCONTROLLER_ITER_GAP pController     1.00058      
+9.622           OUTPUT_VOLTAGE       pController     -0.07684     
+9.622           PCONTROLLER_ITER_LEN pController     0.00457      
+9.625           MY_HEADING           lsm9ds1         2.16512      
+9.638           MY_HEADING           lsm9ds1         3.34126      
+9.651           MY_HEADING           lsm9ds1         5.04245      
+9.663           MY_HEADING           lsm9ds1         3.15650      
+9.676           MY_HEADING           lsm9ds1         5.24335      
+9.689           MY_HEADING           lsm9ds1         7.89030      
+9.701           MY_HEADING           lsm9ds1         8.18422      
+9.714           MY_HEADING           lsm9ds1         6.84198      
+9.727           MY_HEADING           lsm9ds1         8.29462      
+9.739           MY_HEADING           lsm9ds1         9.60921      
+9.752           MY_HEADING           lsm9ds1         10.17604     
+9.765           MY_HEADING           lsm9ds1         9.00077      
+9.777           MY_HEADING           lsm9ds1         9.65006      
+9.790           MY_HEADING           lsm9ds1         12.40346     
+9.803           MY_HEADING           lsm9ds1         10.31737     
+9.815           MY_HEADING           lsm9ds1         12.18458     
+9.827           MY_HEADING           lsm9ds1         12.95984     
+9.840           MY_HEADING           lsm9ds1         11.37710     
+9.852           MY_HEADING           lsm9ds1         12.16562     
+9.865           MY_HEADING           lsm9ds1         12.84244     
+9.871           PCONTROLLER_ITER_GAP pController     1.00139      
+9.872           DB_TIME              MOOSDB_alpha    1555496285.86729 
+9.872           DB_UPTIME            MOOSDB_alpha    10.08546     
+9.872           DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+9.872           OUTPUT_VOLTAGE       pController     -1.02740     
+9.872           PCONTROLLER_ITER_LEN pController     0.00395      
+9.873           DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:05.867         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:03.864         MOOSDB_alpha         0.4 Hz S  getOutputPyMOOS=0.2319...
+DB_RWSUMMARY         11:18:03.864         MOOSDB_alpha         0.4 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:05.867         MOOSDB_alpha         0.5 Hz D  1555496285.9         
+DB_UPTIME            11:18:05.867         MOOSDB_alpha         0.5 Hz D  10.1                 
+DB_VARSUMMARY        11:18:03.864         MOOSDB_alpha         0.4 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:17:56.701         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:05.860         lsm9ds1              80.0Hz D  12.8                 
+OUTPUT_VOLTAGE       11:18:05.621         pController          0.0 Hz D  -0.1                 
+PCONTROLLER_ITER_GAP 11:18:05.867         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:05.622         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:04.865         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:04.679         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+9.873           DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.240088:0.315905:0.224113:0.277424,lsm9ds1=0.349998:0.354052:0.273943:0.319624,pController=0.283003:0.833988:0.283003:0.407743,pLogger=0.240088:0.715017:0.221968:0.366402, 
+9.874           DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+9.877           MY_HEADING           lsm9ds1         13.13794     
+9.890           MY_HEADING           lsm9ds1         12.19776     
+9.903           MY_HEADING           lsm9ds1         14.59196     
+9.915           MY_HEADING           lsm9ds1         14.90619     
+9.928           MY_HEADING           lsm9ds1         13.65558     
+9.940           MY_HEADING           lsm9ds1         15.43794     
+9.953           MY_HEADING           lsm9ds1         16.31338     
+9.965           MY_HEADING           lsm9ds1         15.62889     
+9.978           MY_HEADING           lsm9ds1         15.40220     
+9.991           MY_HEADING           lsm9ds1         19.19071     
+10.003          MY_HEADING           lsm9ds1         18.97041     
+10.016          MY_HEADING           lsm9ds1         17.77026     
+10.029          MY_HEADING           lsm9ds1         17.91106     
+10.041          MY_HEADING           lsm9ds1         19.43887     
+10.054          MY_HEADING           lsm9ds1         19.29415     
+10.067          MY_HEADING           lsm9ds1         16.00774     
+10.079          MY_HEADING           lsm9ds1         19.83638     
+10.092          MY_HEADING           lsm9ds1         18.78884     
+10.105          MY_HEADING           lsm9ds1         16.45156     
+10.117          MY_HEADING           lsm9ds1         18.69867     
+10.122          PCONTROLLER_ITER_GAP pController     1.00212      
+10.123          OUTPUT_VOLTAGE       pController     -1.49589     
+10.123          PCONTROLLER_ITER_LEN pController     0.00496      
+10.130          MY_HEADING           lsm9ds1         18.79695     
+10.143          MY_HEADING           lsm9ds1         16.84020     
+10.156          MY_HEADING           lsm9ds1         18.40070     
+10.169          MY_HEADING           lsm9ds1         18.65868     
+10.182          MY_HEADING           lsm9ds1         18.48242     
+10.189          LOGGER_DIRECTORY     pLogger         ./LOG_pi_17_4_2019_____11_17_56 
+10.195          MY_HEADING           lsm9ds1         18.16596     
+10.207          MY_HEADING           lsm9ds1         19.28396     
+10.220          MY_HEADING           lsm9ds1         19.63343     
+10.233          MY_HEADING           lsm9ds1         17.51584     
+10.245          MY_HEADING           lsm9ds1         17.31399     
+10.258          MY_HEADING           lsm9ds1         20.24070     
+10.271          MY_HEADING           lsm9ds1         18.01616     
+10.283          MY_HEADING           lsm9ds1         20.72491     
+10.296          MY_HEADING           lsm9ds1         17.13901     
+10.309          MY_HEADING           lsm9ds1         16.81909     
+10.322          MY_HEADING           lsm9ds1         16.39068     
+10.334          MY_HEADING           lsm9ds1         17.40830     
+10.347          MY_HEADING           lsm9ds1         17.81326     
+10.360          MY_HEADING           lsm9ds1         16.70691     
+10.372          PCONTROLLER_ITER_GAP pController     1.00252      
+10.373          OUTPUT_VOLTAGE       pController     -1.33655     
+10.373          PCONTROLLER_ITER_LEN pController     0.00106      
+10.374          MY_HEADING           lsm9ds1         15.02934     
+10.386          MY_HEADING           lsm9ds1         15.76183     
+10.398          MY_HEADING           lsm9ds1         15.50894     
+10.410          MY_HEADING           lsm9ds1         14.59700     
+10.422          MY_HEADING           lsm9ds1         16.02329     
+10.435          MY_HEADING           lsm9ds1         15.80506     
+10.447          MY_HEADING           lsm9ds1         14.70028     
+10.459          MY_HEADING           lsm9ds1         12.46813     
+10.471          MY_HEADING           lsm9ds1         14.54253     
+10.483          MY_HEADING           lsm9ds1         14.60638     
+10.495          MY_HEADING           lsm9ds1         11.89182     
+10.507          MY_HEADING           lsm9ds1         12.91578     
+10.519          MY_HEADING           lsm9ds1         14.06653     
+10.531          MY_HEADING           lsm9ds1         11.59578     
+10.544          MY_HEADING           lsm9ds1         10.35135     
+10.556          MY_HEADING           lsm9ds1         11.48714     
+10.568          MY_HEADING           lsm9ds1         11.10324     
+10.580          MY_HEADING           lsm9ds1         10.28033     
+10.592          MY_HEADING           lsm9ds1         10.86009     
+10.604          MY_HEADING           lsm9ds1         10.73467     
+10.616          MY_HEADING           lsm9ds1         9.90901      
+10.623          PCONTROLLER_ITER_GAP pController     1.00391      
+10.624          OUTPUT_VOLTAGE       pController     -0.79272     
+10.624          PCONTROLLER_ITER_LEN pController     0.00092      
+10.628          MY_HEADING           lsm9ds1         9.97652      
+10.641          MY_HEADING           lsm9ds1         8.11525      
+10.653          MY_HEADING           lsm9ds1         10.03063     
+10.665          MY_HEADING           lsm9ds1         8.16838      
+10.677          MY_HEADING           lsm9ds1         7.37352      
+10.691          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=10.6908,cpuload=2.015,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+10.691          MY_HEADING           lsm9ds1         8.43997      
+10.703          MY_HEADING           lsm9ds1         6.26996      
+10.716          MY_HEADING           lsm9ds1         5.22177      
+10.728          MY_HEADING           lsm9ds1         6.73746      
+10.740          MY_HEADING           lsm9ds1         4.81334      
+10.752          MY_HEADING           lsm9ds1         3.92875      
+10.765          MY_HEADING           lsm9ds1         4.47716      
+10.777          MY_HEADING           lsm9ds1         5.09945      
+10.789          MY_HEADING           lsm9ds1         3.09246      
+10.802          MY_HEADING           lsm9ds1         4.63601      
+10.815          MY_HEADING           lsm9ds1         3.54527      
+10.827          MY_HEADING           lsm9ds1         1.75711      
+10.840          MY_HEADING           lsm9ds1         1.45907      
+10.852          MY_HEADING           lsm9ds1         3.60581      
+10.864          MY_HEADING           lsm9ds1         1.56800      
+10.874          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=10.6771,cpuload=1.405,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+10.874          PCONTROLLER_ITER_GAP pController     1.00254      
+10.875          OUTPUT_VOLTAGE       pController     -0.12544     
+10.875          PCONTROLLER_ITER_LEN pController     0.00537      
+10.877          MY_HEADING           lsm9ds1         1.18762      
+10.890          MY_HEADING           lsm9ds1         1.87885      
+10.903          MY_HEADING           lsm9ds1         358.80887    
+10.915          MY_HEADING           lsm9ds1         358.40352    
+10.928          MY_HEADING           lsm9ds1         359.19666    
+10.940          MY_HEADING           lsm9ds1         357.80932    
+10.953          MY_HEADING           lsm9ds1         356.90217    
+10.966          MY_HEADING           lsm9ds1         357.46096    
+10.978          MY_HEADING           lsm9ds1         357.53656    
+10.991          MY_HEADING           lsm9ds1         355.66534    
+11.003          MY_HEADING           lsm9ds1         355.76289    
+11.016          MY_HEADING           lsm9ds1         355.31566    
+11.029          MY_HEADING           lsm9ds1         356.56716    
+11.041          MY_HEADING           lsm9ds1         354.39809    
+11.054          MY_HEADING           lsm9ds1         353.13207    
+11.067          MY_HEADING           lsm9ds1         355.76860    
+11.079          MY_HEADING           lsm9ds1         352.77760    
+11.092          MY_HEADING           lsm9ds1         353.05028    
+11.105          MY_HEADING           lsm9ds1         352.41704    
+11.117          MY_HEADING           lsm9ds1         352.05957    
+11.125          PCONTROLLER_ITER_GAP pController     1.00242      
+11.125          OUTPUT_VOLTAGE       pController     0.63523      
+11.125          PCONTROLLER_ITER_LEN pController     0.00131      
+11.130          MY_HEADING           lsm9ds1         351.07106    
+11.143          MY_HEADING           lsm9ds1         351.30247    
+11.156          MY_HEADING           lsm9ds1         351.11818    
+11.168          MY_HEADING           lsm9ds1         349.86058    
+11.181          MY_HEADING           lsm9ds1         349.75702    
+11.194          MY_HEADING           lsm9ds1         350.33581    
+11.207          MY_HEADING           lsm9ds1         349.26746    
+11.219          MY_HEADING           lsm9ds1         347.34043    
+11.232          MY_HEADING           lsm9ds1         347.98668    
+11.245          MY_HEADING           lsm9ds1         344.47782    
+11.258          MY_HEADING           lsm9ds1         346.78623    
+11.270          MY_HEADING           lsm9ds1         346.75656    
+11.283          MY_HEADING           lsm9ds1         345.94691    
+11.296          MY_HEADING           lsm9ds1         344.41500    
+11.309          MY_HEADING           lsm9ds1         346.82122    
+11.321          MY_HEADING           lsm9ds1         344.76804    
+11.334          MY_HEADING           lsm9ds1         344.77729    
+11.347          MY_HEADING           lsm9ds1         345.55596    
+11.360          MY_HEADING           lsm9ds1         344.18640    
+11.373          MY_HEADING           lsm9ds1         342.76845    
+11.375          PCONTROLLER_ITER_GAP pController     1.00210      
+11.375          OUTPUT_VOLTAGE       pController     1.37852      
+11.375          PCONTROLLER_ITER_LEN pController     0.00083      
+11.386          MY_HEADING           lsm9ds1         344.69258    
+11.399          MY_HEADING           lsm9ds1         343.17664    
+11.411          MY_HEADING           lsm9ds1         342.97152    
+11.423          MY_HEADING           lsm9ds1         343.40190    
+11.435          MY_HEADING           lsm9ds1         342.96114    
+11.447          MY_HEADING           lsm9ds1         343.05187    
+11.459          MY_HEADING           lsm9ds1         342.80306    
+11.471          MY_HEADING           lsm9ds1         342.80146    
+11.483          MY_HEADING           lsm9ds1         342.56302    
+11.495          MY_HEADING           lsm9ds1         341.87605    
+11.508          MY_HEADING           lsm9ds1         342.83036    
+11.520          MY_HEADING           lsm9ds1         342.54270    
+11.532          MY_HEADING           lsm9ds1         340.67532    
+11.544          MY_HEADING           lsm9ds1         340.26220    
+11.556          MY_HEADING           lsm9ds1         341.68082    
+11.568          MY_HEADING           lsm9ds1         341.63716    
+11.580          MY_HEADING           lsm9ds1         341.58200    
+11.592          MY_HEADING           lsm9ds1         340.31363    
+11.604          MY_HEADING           lsm9ds1         341.37731    
+11.617          MY_HEADING           lsm9ds1         341.52774    
+11.626          PCONTROLLER_ITER_GAP pController     1.00352      
+11.626          OUTPUT_VOLTAGE       pController     1.47778      
+11.626          PCONTROLLER_ITER_LEN pController     0.00086      
+11.630          MY_HEADING           lsm9ds1         340.49346    
+11.642          MY_HEADING           lsm9ds1         341.15207    
+11.654          MY_HEADING           lsm9ds1         340.63435    
+11.666          MY_HEADING           lsm9ds1         340.53083    
+11.679          MY_HEADING           lsm9ds1         341.58177    
+11.691          MY_HEADING           lsm9ds1         341.96998    
+11.703          MY_HEADING           lsm9ds1         341.23617    
+11.715          MY_HEADING           lsm9ds1         340.17909    
+11.727          MY_HEADING           lsm9ds1         341.53728    
+11.740          MY_HEADING           lsm9ds1         340.82902    
+11.752          MY_HEADING           lsm9ds1         341.32352    
+11.764          MY_HEADING           lsm9ds1         342.71741    
+11.776          MY_HEADING           lsm9ds1         342.15111    
+11.789          MY_HEADING           lsm9ds1         342.33803    
+11.801          MY_HEADING           lsm9ds1         341.34190    
+11.813          MY_HEADING           lsm9ds1         341.38168    
+11.826          MY_HEADING           lsm9ds1         342.28561    
+11.838          MY_HEADING           lsm9ds1         341.07024    
+11.850          MY_HEADING           lsm9ds1         341.29570    
+11.862          MY_HEADING           lsm9ds1         343.18379    
+11.874          MY_HEADING           lsm9ds1         341.25399    
+11.875          DB_TIME              MOOSDB_alpha    1555496287.87032 
+11.875          DB_UPTIME            MOOSDB_alpha    12.08849     
+11.875          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+11.876          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:07.870         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:05.868         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2400...
+DB_RWSUMMARY         11:18:05.869         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:07.870         MOOSDB_alpha         0.5 Hz D  1555496287.9         
+DB_UPTIME            11:18:07.870         MOOSDB_alpha         0.5 Hz D  12.1                 
+DB_VARSUMMARY        11:18:05.868         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:06.184         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:07.870         lsm9ds1              80.6Hz D  341.3                
+OUTPUT_VOLTAGE       11:18:07.622         pController          0.0 Hz D  1.5                  
+PCONTROLLER_ITER_GAP 11:18:07.622         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:07.622         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:06.870         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:06.686         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+11.876          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.247002:0.440121:0.224113:0.278807,lsm9ds1=0.279903:0.354052:0.273943:0.305605,pController=0.271082:0.833988:0.271082:0.405359,pLogger=0.221014:0.715017:0.221014:0.362587, 
+11.876          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+11.877          PCONTROLLER_ITER_GAP pController     1.00167      
+11.877          OUTPUT_VOLTAGE       pController     1.34530      
+11.877          PCONTROLLER_ITER_LEN pController     0.00084      
+11.887          MY_HEADING           lsm9ds1         341.37596    
+11.899          MY_HEADING           lsm9ds1         342.72334    
+11.911          MY_HEADING           lsm9ds1         342.82981    
+11.924          MY_HEADING           lsm9ds1         341.39712    
+11.936          MY_HEADING           lsm9ds1         342.25078    
+11.948          MY_HEADING           lsm9ds1         344.30796    
+11.961          MY_HEADING           lsm9ds1         341.88435    
+11.973          MY_HEADING           lsm9ds1         341.32211    
+11.985          MY_HEADING           lsm9ds1         343.60553    
+11.997          MY_HEADING           lsm9ds1         342.90633    
+12.010          MY_HEADING           lsm9ds1         342.73827    
+12.023          MY_HEADING           lsm9ds1         344.29352    
+12.035          MY_HEADING           lsm9ds1         344.65289    
+12.047          MY_HEADING           lsm9ds1         343.42599    
+12.060          MY_HEADING           lsm9ds1         343.74257    
+12.072          MY_HEADING           lsm9ds1         344.26179    
+12.084          MY_HEADING           lsm9ds1         345.35889    
+12.096          MY_HEADING           lsm9ds1         345.28092    
+12.109          MY_HEADING           lsm9ds1         344.84020    
+12.121          MY_HEADING           lsm9ds1         344.88566    
+12.127          PCONTROLLER_ITER_GAP pController     1.00061      
+12.127          OUTPUT_VOLTAGE       pController     1.20915      
+12.127          PCONTROLLER_ITER_LEN pController     0.00128      
+12.133          MY_HEADING           lsm9ds1         345.01666    
+12.146          MY_HEADING           lsm9ds1         345.31138    
+12.158          MY_HEADING           lsm9ds1         346.64923    
+12.170          MY_HEADING           lsm9ds1         346.02316    
+12.183          MY_HEADING           lsm9ds1         344.84002    
+12.195          MY_HEADING           lsm9ds1         346.30600    
+12.208          MY_HEADING           lsm9ds1         347.16192    
+12.220          MY_HEADING           lsm9ds1         346.48011    
+12.232          MY_HEADING           lsm9ds1         346.75847    
+12.245          MY_HEADING           lsm9ds1         348.33718    
+12.257          MY_HEADING           lsm9ds1         347.68114    
+12.270          MY_HEADING           lsm9ds1         346.17377    
+12.282          MY_HEADING           lsm9ds1         347.99403    
+12.294          MY_HEADING           lsm9ds1         348.22321    
+12.307          MY_HEADING           lsm9ds1         346.97728    
+12.319          MY_HEADING           lsm9ds1         348.58416    
+12.331          MY_HEADING           lsm9ds1         348.51061    
+12.344          MY_HEADING           lsm9ds1         348.00394    
+12.356          MY_HEADING           lsm9ds1         347.87361    
+12.368          MY_HEADING           lsm9ds1         348.54826    
+12.377          PCONTROLLER_ITER_GAP pController     1.00210      
+12.377          OUTPUT_VOLTAGE       pController     0.91614      
+12.377          PCONTROLLER_ITER_LEN pController     0.00128      
+12.381          MY_HEADING           lsm9ds1         349.77583    
+12.393          MY_HEADING           lsm9ds1         348.92390    
+12.406          MY_HEADING           lsm9ds1         349.02011    
+12.418          MY_HEADING           lsm9ds1         350.08879    
+12.430          MY_HEADING           lsm9ds1         349.99916    
+12.442          MY_HEADING           lsm9ds1         350.32429    
+12.454          MY_HEADING           lsm9ds1         352.06434    
+12.467          MY_HEADING           lsm9ds1         350.76281    
+12.479          MY_HEADING           lsm9ds1         350.41729    
+12.491          MY_HEADING           lsm9ds1         351.93793    
+12.504          MY_HEADING           lsm9ds1         352.27909    
+12.516          MY_HEADING           lsm9ds1         351.70430    
+12.528          MY_HEADING           lsm9ds1         351.27106    
+12.540          MY_HEADING           lsm9ds1         353.85689    
+12.552          MY_HEADING           lsm9ds1         350.76018    
+12.565          MY_HEADING           lsm9ds1         352.41363    
+12.577          MY_HEADING           lsm9ds1         353.22205    
+12.589          MY_HEADING           lsm9ds1         353.73303    
+12.601          MY_HEADING           lsm9ds1         352.73924    
+12.614          MY_HEADING           lsm9ds1         352.73924    
+12.626          MY_HEADING           lsm9ds1         354.46015    
+12.627          PCONTROLLER_ITER_GAP pController     1.00061      
+12.628          OUTPUT_VOLTAGE       pController     0.44319      
+12.628          PCONTROLLER_ITER_LEN pController     0.00123      
+12.638          MY_HEADING           lsm9ds1         355.68432    
+12.650          MY_HEADING           lsm9ds1         353.62539    
+12.663          MY_HEADING           lsm9ds1         356.15109    
+12.675          MY_HEADING           lsm9ds1         356.83862    
+12.687          MY_HEADING           lsm9ds1         355.91438    
+12.696          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=12.6961,cpuload=2.063,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+12.700          MY_HEADING           lsm9ds1         355.72365    
+12.712          MY_HEADING           lsm9ds1         357.61102    
+12.724          MY_HEADING           lsm9ds1         357.44029    
+12.736          MY_HEADING           lsm9ds1         357.76126    
+12.749          MY_HEADING           lsm9ds1         0.36335      
+12.761          MY_HEADING           lsm9ds1         359.41537    
+12.773          MY_HEADING           lsm9ds1         359.59624    
+12.785          MY_HEADING           lsm9ds1         359.48401    
+12.798          MY_HEADING           lsm9ds1         1.43019      
+12.810          MY_HEADING           lsm9ds1         359.79564    
+12.823          MY_HEADING           lsm9ds1         0.98969      
+12.835          MY_HEADING           lsm9ds1         2.96357      
+12.847          MY_HEADING           lsm9ds1         1.86434      
+12.859          MY_HEADING           lsm9ds1         2.98681      
+12.871          MY_HEADING           lsm9ds1         2.98681      
+12.878          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=12.6811,cpuload=1.607,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+12.878          PCONTROLLER_ITER_GAP pController     1.00293      
+12.878          OUTPUT_VOLTAGE       pController     -0.23894     
+12.878          PCONTROLLER_ITER_LEN pController     0.00119      
+12.883          MY_HEADING           lsm9ds1         3.93386      
+12.895          MY_HEADING           lsm9ds1         4.52105      
+12.907          MY_HEADING           lsm9ds1         3.15196      
+12.920          MY_HEADING           lsm9ds1         4.64107      
+12.932          MY_HEADING           lsm9ds1         5.10838      
+12.944          MY_HEADING           lsm9ds1         7.50318      
+12.956          MY_HEADING           lsm9ds1         7.66924      
+12.968          MY_HEADING           lsm9ds1         6.41377      
+12.980          MY_HEADING           lsm9ds1         7.77049      
+12.992          MY_HEADING           lsm9ds1         7.14979      
+13.004          MY_HEADING           lsm9ds1         7.07110      
+13.016          MY_HEADING           lsm9ds1         9.04590      
+13.029          MY_HEADING           lsm9ds1         9.48892      
+13.041          MY_HEADING           lsm9ds1         8.17754      
+13.053          MY_HEADING           lsm9ds1         10.08903     
+13.065          MY_HEADING           lsm9ds1         11.74582     
+13.077          MY_HEADING           lsm9ds1         11.74582     
+13.089          MY_HEADING           lsm9ds1         9.53925      
+13.101          MY_HEADING           lsm9ds1         9.50263      
+13.113          MY_HEADING           lsm9ds1         12.09749     
+13.125          MY_HEADING           lsm9ds1         12.11984     
+13.128          PCONTROLLER_ITER_GAP pController     1.00152      
+13.129          OUTPUT_VOLTAGE       pController     -0.96959     
+13.129          PCONTROLLER_ITER_LEN pController     0.00092      
+13.137          MY_HEADING           lsm9ds1         10.65449     
+13.149          MY_HEADING           lsm9ds1         11.17455     
+13.162          MY_HEADING           lsm9ds1         13.59870     
+13.174          MY_HEADING           lsm9ds1         11.70093     
+13.186          MY_HEADING           lsm9ds1         12.09755     
+13.198          MY_HEADING           lsm9ds1         13.67491     
+13.211          MY_HEADING           lsm9ds1         12.84039     
+13.223          MY_HEADING           lsm9ds1         12.50949     
+13.236          MY_HEADING           lsm9ds1         14.98024     
+13.248          MY_HEADING           lsm9ds1         15.85501     
+13.260          MY_HEADING           lsm9ds1         14.53977     
+13.273          MY_HEADING           lsm9ds1         15.65835     
+13.285          MY_HEADING           lsm9ds1         16.83801     
+13.297          MY_HEADING           lsm9ds1         16.14855     
+13.309          MY_HEADING           lsm9ds1         15.85710     
+13.322          MY_HEADING           lsm9ds1         15.85710     
+13.334          MY_HEADING           lsm9ds1         16.54319     
+13.346          MY_HEADING           lsm9ds1         16.63466     
+13.359          MY_HEADING           lsm9ds1         16.19112     
+13.371          MY_HEADING           lsm9ds1         16.43684     
+13.379          PCONTROLLER_ITER_GAP pController     1.00173      
+13.379          OUTPUT_VOLTAGE       pController     -1.31495     
+13.379          PCONTROLLER_ITER_LEN pController     0.00134      
+13.384          MY_HEADING           lsm9ds1         17.74229     
+13.397          MY_HEADING           lsm9ds1         16.06996     
+13.409          MY_HEADING           lsm9ds1         17.01011     
+13.421          MY_HEADING           lsm9ds1         17.23674     
+13.434          MY_HEADING           lsm9ds1         15.26779     
+13.446          MY_HEADING           lsm9ds1         17.93961     
+13.459          MY_HEADING           lsm9ds1         16.84548     
+13.471          MY_HEADING           lsm9ds1         18.68497     
+13.484          MY_HEADING           lsm9ds1         15.48974     
+13.496          MY_HEADING           lsm9ds1         15.02587     
+13.509          MY_HEADING           lsm9ds1         18.48186     
+13.521          MY_HEADING           lsm9ds1         16.01617     
+13.534          MY_HEADING           lsm9ds1         15.33527     
+13.546          MY_HEADING           lsm9ds1         16.24707     
+13.559          MY_HEADING           lsm9ds1         15.36227     
+13.571          MY_HEADING           lsm9ds1         13.30413     
+13.584          MY_HEADING           lsm9ds1         14.92747     
+13.596          MY_HEADING           lsm9ds1         14.58437     
+13.609          MY_HEADING           lsm9ds1         12.39655     
+13.623          MY_HEADING           lsm9ds1         13.34154     
+13.629          PCONTROLLER_ITER_GAP pController     1.00124      
+13.629          OUTPUT_VOLTAGE       pController     -1.06732     
+13.629          PCONTROLLER_ITER_LEN pController     0.00113      
+13.635          MY_HEADING           lsm9ds1         15.05307     
+13.648          MY_HEADING           lsm9ds1         12.37151     
+13.661          MY_HEADING           lsm9ds1         11.40619     
+13.673          MY_HEADING           lsm9ds1         14.52343     
+13.686          MY_HEADING           lsm9ds1         12.88920     
+13.699          MY_HEADING           lsm9ds1         11.45430     
+13.711          MY_HEADING           lsm9ds1         13.39556     
+13.724          MY_HEADING           lsm9ds1         12.72882     
+13.737          MY_HEADING           lsm9ds1         10.66248     
+13.749          MY_HEADING           lsm9ds1         11.95350     
+13.762          MY_HEADING           lsm9ds1         10.61966     
+13.774          MY_HEADING           lsm9ds1         10.22792     
+13.787          MY_HEADING           lsm9ds1         9.55046      
+13.800          MY_HEADING           lsm9ds1         9.95028      
+13.812          MY_HEADING           lsm9ds1         8.22848      
+13.825          MY_HEADING           lsm9ds1         7.51504      
+13.838          MY_HEADING           lsm9ds1         8.78233      
+13.850          MY_HEADING           lsm9ds1         8.70719      
+13.863          MY_HEADING           lsm9ds1         8.70719      
+13.875          MY_HEADING           lsm9ds1         7.00872      
+13.876          DB_TIME              MOOSDB_alpha    1555496289.87138 
+13.876          DB_UPTIME            MOOSDB_alpha    14.08955     
+13.876          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+13.877          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:09.871         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:07.871         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2470...
+DB_RWSUMMARY         11:18:07.872         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:09.871         MOOSDB_alpha         0.5 Hz D  1555496289.9         
+DB_UPTIME            11:18:09.871         MOOSDB_alpha         0.5 Hz D  14.1                 
+DB_VARSUMMARY        11:18:07.871         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:06.184         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:09.871         lsm9ds1              81.6Hz D  7.0                  
+OUTPUT_VOLTAGE       11:18:09.632         pController          0.0 Hz D  -1.1                 
+PCONTROLLER_ITER_GAP 11:18:09.625         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:09.632         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:08.874         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:08.692         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+13.877          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.259161:0.440121:0.224113:0.281239,lsm9ds1=0.301838:0.354052:0.273943:0.309992,pController=0.4251:0.833988:0.271082:0.436163,pLogger=0.242949:0.715017:0.221014:0.366974, 
+13.877          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+13.880          PCONTROLLER_ITER_GAP pController     1.00192      
+13.880          OUTPUT_VOLTAGE       pController     -0.56070     
+13.880          PCONTROLLER_ITER_LEN pController     0.00155      
+13.888          MY_HEADING           lsm9ds1         6.71100      
+13.900          MY_HEADING           lsm9ds1         8.57050      
+13.913          MY_HEADING           lsm9ds1         5.99109      
+13.925          MY_HEADING           lsm9ds1         6.67710      
+13.938          MY_HEADING           lsm9ds1         7.52947      
+13.950          MY_HEADING           lsm9ds1         5.23844      
+13.963          MY_HEADING           lsm9ds1         5.67847      
+13.975          MY_HEADING           lsm9ds1         4.68816      
+13.988          MY_HEADING           lsm9ds1         4.45738      
+14.000          MY_HEADING           lsm9ds1         3.62467      
+14.013          MY_HEADING           lsm9ds1         4.98458      
+14.025          MY_HEADING           lsm9ds1         3.14517      
+14.038          MY_HEADING           lsm9ds1         2.22340      
+14.050          MY_HEADING           lsm9ds1         2.67597      
+14.062          MY_HEADING           lsm9ds1         2.68990      
+14.075          MY_HEADING           lsm9ds1         1.97831      
+14.087          MY_HEADING           lsm9ds1         1.48248      
+14.100          MY_HEADING           lsm9ds1         2.16807      
+14.112          MY_HEADING           lsm9ds1         0.37512      
+14.125          MY_HEADING           lsm9ds1         358.81701    
+14.130          PCONTROLLER_ITER_GAP pController     1.00105      
+14.130          OUTPUT_VOLTAGE       pController     0.09464      
+14.130          PCONTROLLER_ITER_LEN pController     0.00092      
+14.137          MY_HEADING           lsm9ds1         1.84945      
+14.150          MY_HEADING           lsm9ds1         356.63881    
+14.162          MY_HEADING           lsm9ds1         356.42367    
+14.175          MY_HEADING           lsm9ds1         355.99840    
+14.187          MY_HEADING           lsm9ds1         355.75761    
+14.200          MY_HEADING           lsm9ds1         357.51288    
+14.212          MY_HEADING           lsm9ds1         355.94054    
+14.225          MY_HEADING           lsm9ds1         355.19257    
+14.237          MY_HEADING           lsm9ds1         355.59987    
+14.250          MY_HEADING           lsm9ds1         355.27870    
+14.262          MY_HEADING           lsm9ds1         353.97483    
+14.274          MY_HEADING           lsm9ds1         353.61517    
+14.286          MY_HEADING           lsm9ds1         353.49169    
+14.298          MY_HEADING           lsm9ds1         352.87498    
+14.311          MY_HEADING           lsm9ds1         353.65778    
+14.323          MY_HEADING           lsm9ds1         353.62946    
+14.335          MY_HEADING           lsm9ds1         353.81555    
+14.347          MY_HEADING           lsm9ds1         352.46161    
+14.359          MY_HEADING           lsm9ds1         350.93197    
+14.371          MY_HEADING           lsm9ds1         353.14361    
+14.380          PCONTROLLER_ITER_GAP pController     1.00170      
+14.381          OUTPUT_VOLTAGE       pController     0.54851      
+14.381          PCONTROLLER_ITER_LEN pController     0.00111      
+14.385          MY_HEADING           lsm9ds1         352.85700    
+14.397          MY_HEADING           lsm9ds1         351.20558    
+14.409          MY_HEADING           lsm9ds1         352.44255    
+14.422          MY_HEADING           lsm9ds1         352.56780    
+14.435          MY_HEADING           lsm9ds1         351.14181    
+14.447          MY_HEADING           lsm9ds1         350.72481    
+14.460          MY_HEADING           lsm9ds1         351.39907    
+14.472          MY_HEADING           lsm9ds1         352.05295    
+14.485          MY_HEADING           lsm9ds1         349.66180    
+14.497          MY_HEADING           lsm9ds1         350.39775    
+14.510          MY_HEADING           lsm9ds1         351.09379    
+14.522          MY_HEADING           lsm9ds1         349.43146    
+14.534          MY_HEADING           lsm9ds1         350.37089    
+14.547          MY_HEADING           lsm9ds1         350.29796    
+14.559          MY_HEADING           lsm9ds1         349.78902    
+14.571          MY_HEADING           lsm9ds1         348.43101    
+14.584          MY_HEADING           lsm9ds1         350.96952    
+14.596          MY_HEADING           lsm9ds1         351.24711    
+14.608          MY_HEADING           lsm9ds1         350.27699    
+14.621          MY_HEADING           lsm9ds1         348.26530    
+14.631          PCONTROLLER_ITER_GAP pController     1.00170      
+14.632          OUTPUT_VOLTAGE       pController     0.93878      
+14.632          PCONTROLLER_ITER_LEN pController     0.00563      
+14.633          MY_HEADING           lsm9ds1         349.30590    
+14.646          MY_HEADING           lsm9ds1         350.31245    
+14.658          MY_HEADING           lsm9ds1         349.61172    
+14.671          MY_HEADING           lsm9ds1         347.34708    
+14.683          MY_HEADING           lsm9ds1         350.10401    
+14.695          MY_HEADING           lsm9ds1         348.67285    
+14.701          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=14.701,cpuload=1.936,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+14.708          MY_HEADING           lsm9ds1         348.47208    
+14.721          MY_HEADING           lsm9ds1         349.19466    
+14.733          MY_HEADING           lsm9ds1         349.52474    
+14.745          MY_HEADING           lsm9ds1         347.77431    
+14.758          MY_HEADING           lsm9ds1         349.43404    
+14.770          MY_HEADING           lsm9ds1         349.30959    
+14.782          MY_HEADING           lsm9ds1         347.80374    
+14.794          MY_HEADING           lsm9ds1         349.14042    
+14.807          MY_HEADING           lsm9ds1         349.46884    
+14.819          MY_HEADING           lsm9ds1         349.60936    
+14.831          MY_HEADING           lsm9ds1         347.88557    
+14.843          MY_HEADING           lsm9ds1         349.70654    
+14.855          MY_HEADING           lsm9ds1         349.39363    
+14.867          MY_HEADING           lsm9ds1         348.27327    
+14.880          MY_HEADING           lsm9ds1         357.29329    
+14.882          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=14.6847,cpuload=1.578,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+14.882          PCONTROLLER_ITER_GAP pController     1.00340      
+14.883          OUTPUT_VOLTAGE       pController     0.21654      
+14.883          PCONTROLLER_ITER_LEN pController     0.00514      
+14.892          MY_HEADING           lsm9ds1         350.28752    
+14.905          MY_HEADING           lsm9ds1         350.20112    
+14.917          MY_HEADING           lsm9ds1         348.83084    
+14.930          MY_HEADING           lsm9ds1         349.47822    
+14.942          MY_HEADING           lsm9ds1         350.42470    
+14.955          MY_HEADING           lsm9ds1         349.83204    
+14.967          MY_HEADING           lsm9ds1         350.78190    
+14.979          MY_HEADING           lsm9ds1         351.14915    
+14.992          MY_HEADING           lsm9ds1         352.56011    
+15.004          MY_HEADING           lsm9ds1         350.52621    
+15.017          MY_HEADING           lsm9ds1         352.75763    
+15.029          MY_HEADING           lsm9ds1         351.85199    
+15.042          MY_HEADING           lsm9ds1         351.90817    
+15.054          MY_HEADING           lsm9ds1         352.68913    
+15.067          MY_HEADING           lsm9ds1         352.43777    
+15.080          MY_HEADING           lsm9ds1         352.38749    
+15.092          MY_HEADING           lsm9ds1         352.23157    
+15.104          MY_HEADING           lsm9ds1         352.82984    
+15.116          MY_HEADING           lsm9ds1         352.97085    
+15.128          MY_HEADING           lsm9ds1         351.57640    
+15.132          PCONTROLLER_ITER_GAP pController     0.99988      
+15.133          OUTPUT_VOLTAGE       pController     0.67389      
+15.133          PCONTROLLER_ITER_LEN pController     0.00496      
+15.141          MY_HEADING           lsm9ds1         353.80054    
+15.153          MY_HEADING           lsm9ds1         353.92716    
+15.165          MY_HEADING           lsm9ds1         352.19214    
+15.177          MY_HEADING           lsm9ds1         352.75549    
+15.189          MY_HEADING           lsm9ds1         354.84702    
+15.202          MY_HEADING           lsm9ds1         354.84702    
+15.214          MY_HEADING           lsm9ds1         353.52082    
+15.226          MY_HEADING           lsm9ds1         354.01097    
+15.238          MY_HEADING           lsm9ds1         354.78421    
+15.251          MY_HEADING           lsm9ds1         354.20642    
+15.263          MY_HEADING           lsm9ds1         353.75049    
+15.275          MY_HEADING           lsm9ds1         355.33351    
+15.287          MY_HEADING           lsm9ds1         356.04416    
+15.299          MY_HEADING           lsm9ds1         355.23020    
+15.311          MY_HEADING           lsm9ds1         354.25742    
+15.324          MY_HEADING           lsm9ds1         356.19204    
+15.336          MY_HEADING           lsm9ds1         354.71590    
+15.348          MY_HEADING           lsm9ds1         353.90036    
+15.361          MY_HEADING           lsm9ds1         356.60633    
+15.373          MY_HEADING           lsm9ds1         356.32332    
+15.382          PCONTROLLER_ITER_GAP pController     1.00184      
+15.382          OUTPUT_VOLTAGE       pController     0.29413      
+15.382          PCONTROLLER_ITER_LEN pController     0.00097      
+15.386          MY_HEADING           lsm9ds1         354.73956    
+15.398          MY_HEADING           lsm9ds1         355.94573    
+15.410          MY_HEADING           lsm9ds1         357.94159    
+15.423          MY_HEADING           lsm9ds1         356.35050    
+15.435          MY_HEADING           lsm9ds1         357.09195    
+15.447          MY_HEADING           lsm9ds1         357.39576    
+15.460          MY_HEADING           lsm9ds1         355.61406    
+15.472          MY_HEADING           lsm9ds1         355.61406    
+15.484          MY_HEADING           lsm9ds1         357.80620    
+15.497          MY_HEADING           lsm9ds1         358.02701    
+15.509          MY_HEADING           lsm9ds1         358.24131    
+15.521          MY_HEADING           lsm9ds1         357.29057    
+15.534          MY_HEADING           lsm9ds1         358.46464    
+15.546          MY_HEADING           lsm9ds1         359.26692    
+15.558          MY_HEADING           lsm9ds1         357.22065    
+15.571          MY_HEADING           lsm9ds1         359.45914    
+15.583          MY_HEADING           lsm9ds1         359.61828    
+15.595          MY_HEADING           lsm9ds1         358.33667    
+15.608          MY_HEADING           lsm9ds1         359.59379    
+15.620          MY_HEADING           lsm9ds1         359.34511    
+15.633          MY_HEADING           lsm9ds1         359.32709    
+15.633          PCONTROLLER_ITER_GAP pController     1.00372      
+15.633          OUTPUT_VOLTAGE       pController     0.05239      
+15.633          PCONTROLLER_ITER_LEN pController     0.00095      
+15.645          MY_HEADING           lsm9ds1         358.97096    
+15.657          MY_HEADING           lsm9ds1         0.05711      
+15.670          MY_HEADING           lsm9ds1         0.25028      
+15.682          MY_HEADING           lsm9ds1         359.75385    
+15.694          MY_HEADING           lsm9ds1         0.20897      
+15.707          MY_HEADING           lsm9ds1         2.16071      
+15.719          MY_HEADING           lsm9ds1         359.45128    
+15.731          MY_HEADING           lsm9ds1         0.36118      
+15.744          MY_HEADING           lsm9ds1         1.83744      
+15.756          MY_HEADING           lsm9ds1         0.87275      
+15.768          MY_HEADING           lsm9ds1         1.33808      
+15.781          MY_HEADING           lsm9ds1         1.30798      
+15.793          MY_HEADING           lsm9ds1         2.70562      
+15.806          MY_HEADING           lsm9ds1         2.10042      
+15.818          MY_HEADING           lsm9ds1         1.88630      
+15.831          MY_HEADING           lsm9ds1         2.37330      
+15.843          MY_HEADING           lsm9ds1         2.29733      
+15.856          MY_HEADING           lsm9ds1         2.13033      
+15.868          MY_HEADING           lsm9ds1         4.28532      
+15.880          MY_HEADING           lsm9ds1         4.36157      
+15.883          PCONTROLLER_ITER_GAP pController     1.00176      
+15.884          OUTPUT_VOLTAGE       pController     -0.18379     
+15.884          PCONTROLLER_ITER_LEN pController     0.00080      
+15.884          DB_TIME              MOOSDB_alpha    1555496291.87954 
+15.884          DB_UPTIME            MOOSDB_alpha    16.09771     
+15.884          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+15.885          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:11.879         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:09.872         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2591...
+DB_RWSUMMARY         11:18:09.873         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:11.879         MOOSDB_alpha         0.5 Hz D  1555496291.9         
+DB_UPTIME            11:18:11.879         MOOSDB_alpha         0.5 Hz D  16.1                 
+DB_VARSUMMARY        11:18:09.872         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:06.184         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:11.839         lsm9ds1              80.9Hz D  2.3                  
+OUTPUT_VOLTAGE       11:18:11.629         pController          0.0 Hz D  0.1                  
+PCONTROLLER_ITER_GAP 11:18:11.879         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:11.629         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:10.877         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:10.697         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+15.885          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.260115:0.440121:0.224113:0.281429,lsm9ds1=0.290871:0.354052:0.273943:0.307798,pController=0.283003:0.833988:0.271082:0.407743,pLogger=0.265121:0.715017:0.221014:0.371408, 
+15.886          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+15.893          MY_HEADING           lsm9ds1         2.85297      
+15.905          MY_HEADING           lsm9ds1         4.49957      
+15.917          MY_HEADING           lsm9ds1         5.35583      
+15.929          MY_HEADING           lsm9ds1         5.65386      
+15.942          MY_HEADING           lsm9ds1         4.91087      
+15.955          MY_HEADING           lsm9ds1         6.23593      
+15.967          MY_HEADING           lsm9ds1         6.25743      
+15.979          MY_HEADING           lsm9ds1         8.30872      
+15.992          MY_HEADING           lsm9ds1         7.92874      
+16.004          MY_HEADING           lsm9ds1         8.81619      
+16.016          MY_HEADING           lsm9ds1         8.88066      
+16.029          MY_HEADING           lsm9ds1         9.04491      
+16.041          MY_HEADING           lsm9ds1         7.56407      
+16.054          MY_HEADING           lsm9ds1         8.65254      
+16.066          MY_HEADING           lsm9ds1         9.09745      
+16.079          MY_HEADING           lsm9ds1         9.30961      
+16.091          MY_HEADING           lsm9ds1         9.46916      
+16.103          MY_HEADING           lsm9ds1         9.51455      
+16.116          MY_HEADING           lsm9ds1         9.51455      
+16.128          MY_HEADING           lsm9ds1         7.26011      
+16.134          PCONTROLLER_ITER_GAP pController     1.00055      
+16.134          OUTPUT_VOLTAGE       pController     -0.58081     
+16.134          PCONTROLLER_ITER_LEN pController     0.00136      
+16.140          MY_HEADING           lsm9ds1         8.36589      
+16.153          MY_HEADING           lsm9ds1         10.44910     
+16.165          MY_HEADING           lsm9ds1         8.13856      
+16.177          MY_HEADING           lsm9ds1         7.60927      
+16.190          MY_HEADING           lsm9ds1         10.26242     
+16.202          MY_HEADING           lsm9ds1         10.70182     
+16.214          MY_HEADING           lsm9ds1         7.87436      
+16.227          MY_HEADING           lsm9ds1         10.21712     
+16.239          MY_HEADING           lsm9ds1         9.81622      
+16.251          MY_HEADING           lsm9ds1         9.82006      
+16.264          MY_HEADING           lsm9ds1         7.65754      
+16.276          MY_HEADING           lsm9ds1         9.61599      
+16.288          MY_HEADING           lsm9ds1         10.84674     
+16.301          MY_HEADING           lsm9ds1         8.65862      
+16.313          MY_HEADING           lsm9ds1         11.54339     
+16.325          MY_HEADING           lsm9ds1         10.84161     
+16.338          MY_HEADING           lsm9ds1         9.79265      
+16.350          MY_HEADING           lsm9ds1         9.67618      
+16.362          MY_HEADING           lsm9ds1         12.14206     
+16.374          MY_HEADING           lsm9ds1         10.84323     
+16.384          PCONTROLLER_ITER_GAP pController     1.00217      
+16.384          OUTPUT_VOLTAGE       pController     -0.86746     
+16.384          PCONTROLLER_ITER_LEN pController     0.00152      
+16.388          MY_HEADING           lsm9ds1         10.04121     
+16.400          MY_HEADING           lsm9ds1         12.14352     
+16.412          MY_HEADING           lsm9ds1         12.66876     
+16.425          MY_HEADING           lsm9ds1         12.66876     
+16.437          MY_HEADING           lsm9ds1         10.99236     
+16.449          MY_HEADING           lsm9ds1         10.01152     
+16.462          MY_HEADING           lsm9ds1         11.86717     
+16.474          MY_HEADING           lsm9ds1         9.88709      
+16.486          MY_HEADING           lsm9ds1         11.33026     
+16.499          MY_HEADING           lsm9ds1         11.77332     
+16.511          MY_HEADING           lsm9ds1         11.98038     
+16.524          MY_HEADING           lsm9ds1         9.48297      
+16.536          MY_HEADING           lsm9ds1         10.77175     
+16.549          MY_HEADING           lsm9ds1         11.28159     
+16.561          MY_HEADING           lsm9ds1         9.38835      
+16.573          MY_HEADING           lsm9ds1         9.03307      
+16.586          MY_HEADING           lsm9ds1         11.25873     
+16.598          MY_HEADING           lsm9ds1         9.18404      
+16.611          MY_HEADING           lsm9ds1         8.12118      
+16.623          MY_HEADING           lsm9ds1         10.23480     
+16.634          PCONTROLLER_ITER_GAP pController     1.00042      
+16.634          OUTPUT_VOLTAGE       pController     -0.81878     
+16.634          PCONTROLLER_ITER_LEN pController     0.00095      
+16.635          MY_HEADING           lsm9ds1         9.57964      
+16.648          MY_HEADING           lsm9ds1         7.63941      
+16.660          MY_HEADING           lsm9ds1         8.79362      
+16.673          MY_HEADING           lsm9ds1         9.02338      
+16.685          MY_HEADING           lsm9ds1         7.85826      
+16.698          MY_HEADING           lsm9ds1         7.36326      
+16.706          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=16.7056,cpuload=1.895,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+16.710          MY_HEADING           lsm9ds1         8.29462      
+16.722          MY_HEADING           lsm9ds1         8.45881      
+16.734          MY_HEADING           lsm9ds1         7.33617      
+16.746          MY_HEADING           lsm9ds1         7.14952      
+16.759          MY_HEADING           lsm9ds1         7.98830      
+16.771          MY_HEADING           lsm9ds1         7.68684      
+16.783          MY_HEADING           lsm9ds1         6.37385      
+16.796          MY_HEADING           lsm9ds1         5.53212      
+16.808          MY_HEADING           lsm9ds1         8.13877      
+16.821          MY_HEADING           lsm9ds1         5.38509      
+16.833          MY_HEADING           lsm9ds1         5.08007      
+16.846          MY_HEADING           lsm9ds1         7.06103      
+16.858          MY_HEADING           lsm9ds1         5.78164      
+16.870          MY_HEADING           lsm9ds1         4.65989      
+16.882          MY_HEADING           lsm9ds1         6.24563      
+16.885          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=16.6879,cpuload=1.432,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+16.885          PCONTROLLER_ITER_GAP pController     1.00264      
+16.885          OUTPUT_VOLTAGE       pController     -0.56488     
+16.885          PCONTROLLER_ITER_LEN pController     0.00139      
+16.895          MY_HEADING           lsm9ds1         5.70664      
+16.907          MY_HEADING           lsm9ds1         4.00894      
+16.920          MY_HEADING           lsm9ds1         4.39405      
+16.932          MY_HEADING           lsm9ds1         5.52066      
+16.945          MY_HEADING           lsm9ds1         3.91009      
+16.957          MY_HEADING           lsm9ds1         4.19230      
+16.970          MY_HEADING           lsm9ds1         3.95523      
+16.983          MY_HEADING           lsm9ds1         4.29518      
+16.996          MY_HEADING           lsm9ds1         1.64166      
+17.008          MY_HEADING           lsm9ds1         3.23261      
+17.021          MY_HEADING           lsm9ds1         2.13195      
+17.034          MY_HEADING           lsm9ds1         1.07539      
+17.046          MY_HEADING           lsm9ds1         2.06747      
+17.059          MY_HEADING           lsm9ds1         1.01170      
+17.072          MY_HEADING           lsm9ds1         359.02998    
+17.084          MY_HEADING           lsm9ds1         0.74484      
+17.097          MY_HEADING           lsm9ds1         359.75139    
+17.110          MY_HEADING           lsm9ds1         359.81792    
+17.123          MY_HEADING           lsm9ds1         358.24095    
+17.135          MY_HEADING           lsm9ds1         359.66483    
+17.135          PCONTROLLER_ITER_GAP pController     0.99988      
+17.135          OUTPUT_VOLTAGE       pController     0.14072      
+17.135          PCONTROLLER_ITER_LEN pController     0.00202      
+17.147          MY_HEADING           lsm9ds1         357.30189    
+17.159          MY_HEADING           lsm9ds1         356.98823    
+17.172          MY_HEADING           lsm9ds1         356.98823    
+17.184          MY_HEADING           lsm9ds1         358.23292    
+17.196          MY_HEADING           lsm9ds1         357.74558    
+17.209          MY_HEADING           lsm9ds1         355.26223    
+17.221          MY_HEADING           lsm9ds1         352.28105    
+17.234          MY_HEADING           lsm9ds1         351.92613    
+17.246          MY_HEADING           lsm9ds1         354.69098    
+17.258          MY_HEADING           lsm9ds1         353.49569    
+17.271          MY_HEADING           lsm9ds1         352.58191    
+17.283          MY_HEADING           lsm9ds1         353.78239    
+17.296          MY_HEADING           lsm9ds1         354.11722    
+17.308          MY_HEADING           lsm9ds1         351.56699    
+17.320          MY_HEADING           lsm9ds1         351.74290    
+17.333          MY_HEADING           lsm9ds1         352.25485    
+17.345          MY_HEADING           lsm9ds1         350.87303    
+17.357          MY_HEADING           lsm9ds1         350.80141    
+17.370          MY_HEADING           lsm9ds1         351.53466    
+17.382          MY_HEADING           lsm9ds1         351.07677    
+17.386          PCONTROLLER_ITER_GAP pController     1.00322      
+17.386          OUTPUT_VOLTAGE       pController     0.71386      
+17.386          PCONTROLLER_ITER_LEN pController     0.00129      
+17.394          MY_HEADING           lsm9ds1         350.71610    
+17.407          MY_HEADING           lsm9ds1         351.15779    
+17.419          MY_HEADING           lsm9ds1         351.41403    
+17.431          MY_HEADING           lsm9ds1         349.05103    
+17.444          MY_HEADING           lsm9ds1         349.92450    
+17.456          MY_HEADING           lsm9ds1         351.15328    
+17.469          MY_HEADING           lsm9ds1         351.41876    
+17.481          MY_HEADING           lsm9ds1         348.98462    
+17.493          MY_HEADING           lsm9ds1         349.08059    
+17.506          MY_HEADING           lsm9ds1         351.60030    
+17.518          MY_HEADING           lsm9ds1         350.58394    
+17.530          MY_HEADING           lsm9ds1         349.35530    
+17.543          MY_HEADING           lsm9ds1         350.83595    
+17.555          MY_HEADING           lsm9ds1         351.29343    
+17.567          MY_HEADING           lsm9ds1         349.30468    
+17.580          MY_HEADING           lsm9ds1         349.69993    
+17.592          MY_HEADING           lsm9ds1         351.03602    
+17.604          MY_HEADING           lsm9ds1         349.83491    
+17.617          MY_HEADING           lsm9ds1         348.61764    
+17.629          MY_HEADING           lsm9ds1         350.73509    
+17.636          PCONTROLLER_ITER_GAP pController     1.00152      
+17.636          OUTPUT_VOLTAGE       pController     0.74119      
+17.636          PCONTROLLER_ITER_LEN pController     0.00130      
+17.642          MY_HEADING           lsm9ds1         350.04399    
+17.654          MY_HEADING           lsm9ds1         349.27689    
+17.666          MY_HEADING           lsm9ds1         350.28404    
+17.679          MY_HEADING           lsm9ds1         349.94554    
+17.691          MY_HEADING           lsm9ds1         348.13332    
+17.703          MY_HEADING           lsm9ds1         349.32537    
+17.716          MY_HEADING           lsm9ds1         350.03908    
+17.728          MY_HEADING           lsm9ds1         349.02488    
+17.740          MY_HEADING           lsm9ds1         347.90029    
+17.753          MY_HEADING           lsm9ds1         350.81855    
+17.765          MY_HEADING           lsm9ds1         349.41856    
+17.778          MY_HEADING           lsm9ds1         349.49084    
+17.790          MY_HEADING           lsm9ds1         350.51988    
+17.803          MY_HEADING           lsm9ds1         350.46007    
+17.815          MY_HEADING           lsm9ds1         351.12725    
+17.828          MY_HEADING           lsm9ds1         349.12961    
+17.840          MY_HEADING           lsm9ds1         349.95723    
+17.852          MY_HEADING           lsm9ds1         351.38380    
+17.865          MY_HEADING           lsm9ds1         350.01604    
+17.877          MY_HEADING           lsm9ds1         349.03855    
+17.887          PCONTROLLER_ITER_GAP pController     1.00212      
+17.887          OUTPUT_VOLTAGE       pController     0.68930      
+17.887          DB_TIME              MOOSDB_alpha    1555496293.88265 
+17.887          DB_UPTIME            MOOSDB_alpha    18.10082     
+17.887          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+17.887          PCONTROLLER_ITER_LEN pController     0.00122      
+17.889          MY_HEADING           lsm9ds1         351.10242    
+17.890          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:13.882         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:11.881         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2601...
+DB_RWSUMMARY         11:18:11.881         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:13.882         MOOSDB_alpha         0.5 Hz D  1555496293.9         
+DB_UPTIME            11:18:13.882         MOOSDB_alpha         0.5 Hz D  18.1                 
+DB_VARSUMMARY        11:18:11.880         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:06.184         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:13.848         lsm9ds1              80.5Hz D  351.4                
+OUTPUT_VOLTAGE       11:18:13.638         pController          0.0 Hz D  0.7                  
+PCONTROLLER_ITER_GAP 11:18:13.882         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:13.639         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:12.882         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:12.701         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+17.890          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.250101:0.440121:0.224113:0.279427,lsm9ds1=0.277996:0.37384:0.273943:0.305223,pController=0.438929:0.962973:0.271082:0.438929,pLogger=0.272989:0.715017:0.221014:0.372982, 
+17.890          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+17.902          MY_HEADING           lsm9ds1         350.27393    
+17.914          MY_HEADING           lsm9ds1         349.03342    
+17.926          MY_HEADING           lsm9ds1         350.39073    
+17.939          MY_HEADING           lsm9ds1         351.94073    
+17.951          MY_HEADING           lsm9ds1         350.72923    
+17.963          MY_HEADING           lsm9ds1         350.67454    
+17.976          MY_HEADING           lsm9ds1         351.48916    
+17.988          MY_HEADING           lsm9ds1         352.19709    
+18.000          MY_HEADING           lsm9ds1         350.72053    
+18.013          MY_HEADING           lsm9ds1         352.08478    
+18.025          MY_HEADING           lsm9ds1         352.21839    
+18.038          MY_HEADING           lsm9ds1         351.62674    
+18.050          MY_HEADING           lsm9ds1         352.68278    
+18.062          MY_HEADING           lsm9ds1         355.11184    
+18.075          MY_HEADING           lsm9ds1         352.57246    
+18.087          MY_HEADING           lsm9ds1         352.95160    
+18.099          MY_HEADING           lsm9ds1         354.38092    
+18.112          MY_HEADING           lsm9ds1         354.38092    
+18.124          MY_HEADING           lsm9ds1         353.42227    
+18.136          MY_HEADING           lsm9ds1         353.18257    
+18.137          PCONTROLLER_ITER_GAP pController     1.00202      
+18.137          OUTPUT_VOLTAGE       pController     0.54539      
+18.138          PCONTROLLER_ITER_LEN pController     0.00122      
+18.149          MY_HEADING           lsm9ds1         355.33649    
+18.161          MY_HEADING           lsm9ds1         354.87696    
+18.173          MY_HEADING           lsm9ds1         353.49092    
+18.186          MY_HEADING           lsm9ds1         355.10571    
+18.198          MY_HEADING           lsm9ds1         356.16003    
+18.210          MY_HEADING           lsm9ds1         355.31202    
+18.223          MY_HEADING           lsm9ds1         355.46547    
+18.235          MY_HEADING           lsm9ds1         356.77107    
+18.248          MY_HEADING           lsm9ds1         355.61955    
+18.260          MY_HEADING           lsm9ds1         356.05918    
+18.272          MY_HEADING           lsm9ds1         356.80298    
+18.285          MY_HEADING           lsm9ds1         356.25293    
+18.297          MY_HEADING           lsm9ds1         357.18895    
+18.309          MY_HEADING           lsm9ds1         356.54250    
+18.322          MY_HEADING           lsm9ds1         358.04663    
+18.334          MY_HEADING           lsm9ds1         357.07703    
+18.346          MY_HEADING           lsm9ds1         358.81411    
+18.359          MY_HEADING           lsm9ds1         358.26140    
+18.371          MY_HEADING           lsm9ds1         357.10930    
+18.383          MY_HEADING           lsm9ds1         358.64154    
+18.388          PCONTROLLER_ITER_GAP pController     1.00349      
+18.388          OUTPUT_VOLTAGE       pController     0.10868      
+18.388          PCONTROLLER_ITER_LEN pController     0.00130      
+18.396          MY_HEADING           lsm9ds1         0.01883      
+18.408          MY_HEADING           lsm9ds1         358.12492    
+18.421          MY_HEADING           lsm9ds1         358.12492    
+18.433          MY_HEADING           lsm9ds1         358.59673    
+18.445          MY_HEADING           lsm9ds1         0.36481      
+18.458          MY_HEADING           lsm9ds1         0.17292      
+18.470          MY_HEADING           lsm9ds1         359.26208    
+18.483          MY_HEADING           lsm9ds1         1.75853      
+18.495          MY_HEADING           lsm9ds1         0.82725      
+18.507          MY_HEADING           lsm9ds1         359.39258    
+18.519          MY_HEADING           lsm9ds1         1.22259      
+18.532          MY_HEADING           lsm9ds1         0.89696      
+18.544          MY_HEADING           lsm9ds1         0.05669      
+18.557          MY_HEADING           lsm9ds1         2.01130      
+18.569          MY_HEADING           lsm9ds1         1.69702      
+18.581          MY_HEADING           lsm9ds1         0.69724      
+18.594          MY_HEADING           lsm9ds1         1.48312      
+18.606          MY_HEADING           lsm9ds1         3.26877      
+18.618          MY_HEADING           lsm9ds1         2.94732      
+18.630          MY_HEADING           lsm9ds1         1.55614      
+18.638          PCONTROLLER_ITER_GAP pController     1.00128      
+18.640          OUTPUT_VOLTAGE       pController     -0.12449     
+18.640          PCONTROLLER_ITER_LEN pController     0.00583      
+18.642          MY_HEADING           lsm9ds1         3.15439      
+18.655          MY_HEADING           lsm9ds1         3.65099      
+18.667          MY_HEADING           lsm9ds1         2.54783      
+18.679          MY_HEADING           lsm9ds1         1.99293      
+18.691          MY_HEADING           lsm9ds1         1.99293      
+18.703          MY_HEADING           lsm9ds1         4.73107      
+18.710          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=18.7102,cpuload=2.041,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+18.715          MY_HEADING           lsm9ds1         4.39426      
+18.727          MY_HEADING           lsm9ds1         2.90987      
+18.740          MY_HEADING           lsm9ds1         6.32905      
+18.753          MY_HEADING           lsm9ds1         5.73840      
+18.765          MY_HEADING           lsm9ds1         7.22404      
+18.778          MY_HEADING           lsm9ds1         5.65462      
+18.791          MY_HEADING           lsm9ds1         5.67397      
+18.803          MY_HEADING           lsm9ds1         8.25549      
+18.816          MY_HEADING           lsm9ds1         7.78968      
+18.829          MY_HEADING           lsm9ds1         7.35568      
+18.842          MY_HEADING           lsm9ds1         8.03452      
+18.854          MY_HEADING           lsm9ds1         8.32517      
+18.867          MY_HEADING           lsm9ds1         8.61985      
+18.879          MY_HEADING           lsm9ds1         9.67429      
+18.889          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=18.6922,cpuload=1.506,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+18.889          PCONTROLLER_ITER_GAP pController     1.00354      
+18.890          OUTPUT_VOLTAGE       pController     -0.66601     
+18.890          PCONTROLLER_ITER_LEN pController     0.00464      
+18.891          MY_HEADING           lsm9ds1         10.10326     
+18.903          MY_HEADING           lsm9ds1         9.44867      
+18.915          MY_HEADING           lsm9ds1         8.98199      
+18.928          MY_HEADING           lsm9ds1         12.47126     
+18.940          MY_HEADING           lsm9ds1         12.28813     
+18.953          MY_HEADING           lsm9ds1         10.87616     
+18.965          MY_HEADING           lsm9ds1         13.23689     
+18.977          MY_HEADING           lsm9ds1         12.45825     
+18.989          MY_HEADING           lsm9ds1         11.86626     
+19.002          MY_HEADING           lsm9ds1         10.30296     
+19.014          MY_HEADING           lsm9ds1         12.13791     
+19.026          MY_HEADING           lsm9ds1         12.13791     
+19.038          MY_HEADING           lsm9ds1         10.54625     
+19.050          MY_HEADING           lsm9ds1         10.65045     
+19.063          MY_HEADING           lsm9ds1         10.92600     
+19.075          MY_HEADING           lsm9ds1         12.21592     
+19.088          MY_HEADING           lsm9ds1         11.18175     
+19.100          MY_HEADING           lsm9ds1         10.77554     
+19.113          MY_HEADING           lsm9ds1         11.71298     
+19.125          MY_HEADING           lsm9ds1         10.79870     
+19.137          MY_HEADING           lsm9ds1         9.30489      
+19.139          PCONTROLLER_ITER_GAP pController     1.00018      
+19.140          OUTPUT_VOLTAGE       pController     -0.74439     
+19.140          PCONTROLLER_ITER_LEN pController     0.00495      
+19.150          MY_HEADING           lsm9ds1         11.49758     
+19.162          MY_HEADING           lsm9ds1         10.22582     
+19.175          MY_HEADING           lsm9ds1         10.19264     
+19.187          MY_HEADING           lsm9ds1         11.46354     
+19.200          MY_HEADING           lsm9ds1         11.47713     
+19.214          MY_HEADING           lsm9ds1         9.30896      
+19.226          MY_HEADING           lsm9ds1         10.85557     
+19.239          MY_HEADING           lsm9ds1         11.86256     
+19.251          MY_HEADING           lsm9ds1         11.03056     
+19.264          MY_HEADING           lsm9ds1         8.87691      
+19.276          MY_HEADING           lsm9ds1         12.40499     
+19.289          MY_HEADING           lsm9ds1         9.63200      
+19.301          MY_HEADING           lsm9ds1         10.09319     
+19.314          MY_HEADING           lsm9ds1         11.19083     
+19.326          MY_HEADING           lsm9ds1         11.48947     
+19.339          MY_HEADING           lsm9ds1         8.67691      
+19.351          MY_HEADING           lsm9ds1         9.94744      
+19.364          MY_HEADING           lsm9ds1         11.05208     
+19.376          MY_HEADING           lsm9ds1         10.20876     
+19.389          MY_HEADING           lsm9ds1         9.40118      
+19.390          PCONTROLLER_ITER_GAP pController     1.00182      
+19.390          OUTPUT_VOLTAGE       pController     -0.81670     
+19.390          PCONTROLLER_ITER_LEN pController     0.00110      
+19.402          MY_HEADING           lsm9ds1         10.50119     
+19.414          MY_HEADING           lsm9ds1         9.72816      
+19.426          MY_HEADING           lsm9ds1         7.86526      
+19.438          MY_HEADING           lsm9ds1         9.21589      
+19.451          MY_HEADING           lsm9ds1         8.57491      
+19.464          MY_HEADING           lsm9ds1         8.03403      
+19.476          MY_HEADING           lsm9ds1         8.03403      
+19.488          MY_HEADING           lsm9ds1         8.14434      
+19.501          MY_HEADING           lsm9ds1         10.15518     
+19.513          MY_HEADING           lsm9ds1         7.71317      
+19.525          MY_HEADING           lsm9ds1         8.57783      
+19.537          MY_HEADING           lsm9ds1         8.46282      
+19.549          MY_HEADING           lsm9ds1         7.57967      
+19.561          MY_HEADING           lsm9ds1         6.50168      
+19.573          MY_HEADING           lsm9ds1         6.68760      
+19.585          MY_HEADING           lsm9ds1         8.17276      
+19.598          MY_HEADING           lsm9ds1         6.47468      
+19.610          MY_HEADING           lsm9ds1         6.36074      
+19.622          MY_HEADING           lsm9ds1         6.82602      
+19.634          MY_HEADING           lsm9ds1         5.55297      
+19.640          PCONTROLLER_ITER_GAP pController     1.00165      
+19.640          OUTPUT_VOLTAGE       pController     -0.44424     
+19.640          PCONTROLLER_ITER_LEN pController     0.00088      
+19.647          MY_HEADING           lsm9ds1         4.82150      
+19.660          MY_HEADING           lsm9ds1         5.90401      
+19.672          MY_HEADING           lsm9ds1         6.12728      
+19.685          MY_HEADING           lsm9ds1         4.10074      
+19.698          MY_HEADING           lsm9ds1         4.85194      
+19.711          MY_HEADING           lsm9ds1         4.13293      
+19.723          MY_HEADING           lsm9ds1         3.66881      
+19.736          MY_HEADING           lsm9ds1         2.82129      
+19.748          MY_HEADING           lsm9ds1         3.92307      
+19.760          MY_HEADING           lsm9ds1         2.01575      
+19.772          MY_HEADING           lsm9ds1         1.99120      
+19.784          MY_HEADING           lsm9ds1         2.51062      
+19.796          MY_HEADING           lsm9ds1         2.49219      
+19.808          MY_HEADING           lsm9ds1         2.91050      
+19.821          MY_HEADING           lsm9ds1         1.45984      
+19.833          MY_HEADING           lsm9ds1         3.10996      
+19.845          MY_HEADING           lsm9ds1         1.76514      
+19.857          MY_HEADING           lsm9ds1         359.93965    
+19.869          MY_HEADING           lsm9ds1         1.08278      
+19.881          MY_HEADING           lsm9ds1         1.31761      
+19.890          PCONTROLLER_ITER_GAP pController     1.00166      
+19.891          OUTPUT_VOLTAGE       pController     0.00483      
+19.891          PCONTROLLER_ITER_LEN pController     0.00083      
+19.891          DB_TIME              MOOSDB_alpha    1555496295.88663 
+19.891          DB_UPTIME            MOOSDB_alpha    20.10480     
+19.891          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+19.893          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:15.887         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:13.885         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2501...
+DB_RWSUMMARY         11:18:13.885         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:15.886         MOOSDB_alpha         0.5 Hz D  1555496295.9         
+DB_UPTIME            11:18:15.886         MOOSDB_alpha         0.5 Hz D  20.1                 
+DB_VARSUMMARY        11:18:13.885         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:06.184         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:15.852         lsm9ds1              80.5Hz D  359.9                
+OUTPUT_VOLTAGE       11:18:15.643         pController          0.0 Hz D  -0.4                 
+PCONTROLLER_ITER_GAP 11:18:15.886         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:15.643         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:14.885         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:14.706         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+19.893          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.262022:0.440121:0.224113:0.281811,lsm9ds1=0.314951:0.37384:0.273943:0.312614,pController=0.365019:0.962973:0.271082:0.424147,pLogger=0.231981:0.715017:0.221014:0.36478, 
+19.893          MY_HEADING           lsm9ds1         0.37255      
+19.894          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+19.905          MY_HEADING           lsm9ds1         0.22006      
+19.918          MY_HEADING           lsm9ds1         0.96468      
+19.930          MY_HEADING           lsm9ds1         358.47325    
+19.942          MY_HEADING           lsm9ds1         357.81153    
+19.955          MY_HEADING           lsm9ds1         354.88076    
+19.967          MY_HEADING           lsm9ds1         355.93552    
+19.979          MY_HEADING           lsm9ds1         356.56564    
+19.992          MY_HEADING           lsm9ds1         356.56564    
+20.004          MY_HEADING           lsm9ds1         354.63263    
+20.016          MY_HEADING           lsm9ds1         355.69533    
+20.029          MY_HEADING           lsm9ds1         355.39713    
+20.041          MY_HEADING           lsm9ds1         354.68678    
+20.053          MY_HEADING           lsm9ds1         354.98655    
+20.066          MY_HEADING           lsm9ds1         355.22393    
+20.078          MY_HEADING           lsm9ds1         354.63956    
+20.090          MY_HEADING           lsm9ds1         353.27620    
+20.103          MY_HEADING           lsm9ds1         354.74388    
+20.115          MY_HEADING           lsm9ds1         354.68154    
+20.127          MY_HEADING           lsm9ds1         353.31091    
+20.140          MY_HEADING           lsm9ds1         354.06775    
+20.141          PCONTROLLER_ITER_GAP pController     1.00372      
+20.142          OUTPUT_VOLTAGE       pController     0.47458      
+20.142          PCONTROLLER_ITER_LEN pController     0.00109      
+20.152          MY_HEADING           lsm9ds1         354.65228    
+20.164          MY_HEADING           lsm9ds1         353.78031    
+20.177          MY_HEADING           lsm9ds1         353.23104    
+20.189          MY_HEADING           lsm9ds1         354.20049    
+20.201          MY_HEADING           lsm9ds1         352.83835    
+20.214          MY_HEADING           lsm9ds1         352.62474    
+20.215          LOGGER_DIRECTORY     pLogger         ./LOG_pi_17_4_2019_____11_17_56 
+20.226          MY_HEADING           lsm9ds1         353.19885    
+20.238          MY_HEADING           lsm9ds1         353.04569    
+20.251          MY_HEADING           lsm9ds1         350.54373    
+20.263          MY_HEADING           lsm9ds1         351.98969    
+20.276          MY_HEADING           lsm9ds1         353.95657    
+20.288          MY_HEADING           lsm9ds1         352.16561    
+20.301          MY_HEADING           lsm9ds1         352.16561    
+20.313          MY_HEADING           lsm9ds1         351.01327    
+20.325          MY_HEADING           lsm9ds1         352.45301    
+20.338          MY_HEADING           lsm9ds1         352.21282    
+20.350          MY_HEADING           lsm9ds1         350.80459    
+20.363          MY_HEADING           lsm9ds1         351.03220    
+20.375          MY_HEADING           lsm9ds1         351.47108    
+20.388          MY_HEADING           lsm9ds1         350.31165    
+20.392          PCONTROLLER_ITER_GAP pController     1.00188      
+20.393          OUTPUT_VOLTAGE       pController     0.77507      
+20.393          PCONTROLLER_ITER_LEN pController     0.00403      
+20.400          MY_HEADING           lsm9ds1         350.01685    
+20.412          MY_HEADING           lsm9ds1         352.27726    
+20.425          MY_HEADING           lsm9ds1         349.24421    
+20.437          MY_HEADING           lsm9ds1         349.17324    
+20.450          MY_HEADING           lsm9ds1         350.98971    
+20.463          MY_HEADING           lsm9ds1         349.35503    
+20.477          MY_HEADING           lsm9ds1         349.40919    
+20.490          MY_HEADING           lsm9ds1         350.49802    
+20.503          MY_HEADING           lsm9ds1         351.10242    
+20.517          MY_HEADING           lsm9ds1         349.12678    
+20.530          MY_HEADING           lsm9ds1         349.66467    
+20.542          MY_HEADING           lsm9ds1         350.47855    
+20.555          MY_HEADING           lsm9ds1         350.61463    
+20.567          MY_HEADING           lsm9ds1         349.40435    
+20.580          MY_HEADING           lsm9ds1         350.45532    
+20.593          MY_HEADING           lsm9ds1         350.40367    
+20.605          MY_HEADING           lsm9ds1         349.18432    
+20.618          MY_HEADING           lsm9ds1         351.53000    
+20.630          MY_HEADING           lsm9ds1         351.01480    
+20.642          PCONTROLLER_ITER_GAP pController     1.00090      
+20.642          OUTPUT_VOLTAGE       pController     0.71882      
+20.642          PCONTROLLER_ITER_LEN pController     0.00162      
+20.644          MY_HEADING           lsm9ds1         350.40611    
+20.656          MY_HEADING           lsm9ds1         350.46439    
+20.669          MY_HEADING           lsm9ds1         352.60203    
+20.682          MY_HEADING           lsm9ds1         351.05530    
+20.694          MY_HEADING           lsm9ds1         351.21785    
+20.707          MY_HEADING           lsm9ds1         352.21345    
+20.715          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=20.7146,cpuload=2.008,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+20.719          MY_HEADING           lsm9ds1         352.32693    
+20.732          MY_HEADING           lsm9ds1         350.24926    
+20.745          MY_HEADING           lsm9ds1         351.73025    
+20.757          MY_HEADING           lsm9ds1         351.99354    
+20.770          MY_HEADING           lsm9ds1         351.68515    
+20.783          MY_HEADING           lsm9ds1         351.88734    
+20.795          MY_HEADING           lsm9ds1         352.68642    
+20.808          MY_HEADING           lsm9ds1         352.23802    
+20.820          MY_HEADING           lsm9ds1         351.58586    
+20.833          MY_HEADING           lsm9ds1         353.25500    
+20.846          MY_HEADING           lsm9ds1         352.79790    
+20.858          MY_HEADING           lsm9ds1         351.76959    
+20.871          MY_HEADING           lsm9ds1         354.08326    
+20.883          MY_HEADING           lsm9ds1         354.19232    
+20.893          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=20.696,cpuload=1.473,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+20.893          PCONTROLLER_ITER_GAP pController     1.00330      
+20.893          OUTPUT_VOLTAGE       pController     0.65843      
+20.893          PCONTROLLER_ITER_LEN pController     0.00222      
+20.896          MY_HEADING           lsm9ds1         352.94714    
+20.909          MY_HEADING           lsm9ds1         353.77584    
+20.922          MY_HEADING           lsm9ds1         354.92331    
+20.934          MY_HEADING           lsm9ds1         353.98613    
+20.947          MY_HEADING           lsm9ds1         354.69098    
+20.960          MY_HEADING           lsm9ds1         354.72356    
+20.972          MY_HEADING           lsm9ds1         354.92883    
+20.985          MY_HEADING           lsm9ds1         354.54636    
+20.998          MY_HEADING           lsm9ds1         356.02337    
+21.010          MY_HEADING           lsm9ds1         355.82168    
+21.023          MY_HEADING           lsm9ds1         355.32159    
+21.035          MY_HEADING           lsm9ds1         356.30920    
+21.048          MY_HEADING           lsm9ds1         356.29259    
+21.061          MY_HEADING           lsm9ds1         357.14118    
+21.073          MY_HEADING           lsm9ds1         355.66161    
+21.086          MY_HEADING           lsm9ds1         355.70251    
+21.099          MY_HEADING           lsm9ds1         356.98626    
+21.111          MY_HEADING           lsm9ds1         356.51983    
+21.124          MY_HEADING           lsm9ds1         355.71458    
+21.137          MY_HEADING           lsm9ds1         357.90386    
+21.144          PCONTROLLER_ITER_GAP pController     1.00253      
+21.144          OUTPUT_VOLTAGE       pController     0.16769      
+21.144          PCONTROLLER_ITER_LEN pController     0.00092      
+21.149          MY_HEADING           lsm9ds1         357.03971    
+21.162          MY_HEADING           lsm9ds1         357.04865    
+21.174          MY_HEADING           lsm9ds1         358.90755    
+21.187          MY_HEADING           lsm9ds1         358.86980    
+21.200          MY_HEADING           lsm9ds1         358.18745    
+21.212          MY_HEADING           lsm9ds1         359.71160    
+21.225          MY_HEADING           lsm9ds1         0.51946      
+21.238          MY_HEADING           lsm9ds1         358.85122    
+21.250          MY_HEADING           lsm9ds1         2.01392      
+21.263          MY_HEADING           lsm9ds1         0.90266      
+21.275          MY_HEADING           lsm9ds1         0.61949      
+21.288          MY_HEADING           lsm9ds1         0.67837      
+21.301          MY_HEADING           lsm9ds1         0.99652      
+21.313          MY_HEADING           lsm9ds1         0.44822      
+21.326          MY_HEADING           lsm9ds1         359.55986    
+21.339          MY_HEADING           lsm9ds1         1.84949      
+21.351          MY_HEADING           lsm9ds1         1.32819      
+21.364          MY_HEADING           lsm9ds1         0.78825      
+21.376          MY_HEADING           lsm9ds1         2.42963      
+21.389          MY_HEADING           lsm9ds1         2.51335      
+21.394          PCONTROLLER_ITER_GAP pController     1.00173      
+21.394          OUTPUT_VOLTAGE       pController     -0.20107     
+21.394          PCONTROLLER_ITER_LEN pController     0.00104      
+21.402          MY_HEADING           lsm9ds1         0.13441      
+21.414          MY_HEADING           lsm9ds1         2.55824      
+21.427          MY_HEADING           lsm9ds1         2.81778      
+21.439          MY_HEADING           lsm9ds1         2.34333      
+21.451          MY_HEADING           lsm9ds1         1.01100      
+21.464          MY_HEADING           lsm9ds1         3.32919      
+21.476          MY_HEADING           lsm9ds1         4.20781      
+21.488          MY_HEADING           lsm9ds1         6.72318      
+21.500          MY_HEADING           lsm9ds1         5.77546      
+21.513          MY_HEADING           lsm9ds1         4.19894      
+21.525          MY_HEADING           lsm9ds1         4.78373      
+21.537          MY_HEADING           lsm9ds1         7.42362      
+21.549          MY_HEADING           lsm9ds1         7.72568      
+21.562          MY_HEADING           lsm9ds1         5.68267      
+21.574          MY_HEADING           lsm9ds1         6.41730      
+21.586          MY_HEADING           lsm9ds1         6.89743      
+21.598          MY_HEADING           lsm9ds1         6.96644      
+21.611          MY_HEADING           lsm9ds1         7.00805      
+21.623          MY_HEADING           lsm9ds1         9.85455      
+21.635          MY_HEADING           lsm9ds1         7.88714      
+21.644          PCONTROLLER_ITER_GAP pController     1.00196      
+21.645          OUTPUT_VOLTAGE       pController     -0.63097     
+21.645          PCONTROLLER_ITER_LEN pController     0.00116      
+21.648          MY_HEADING           lsm9ds1         8.20722      
+21.660          MY_HEADING           lsm9ds1         10.20076     
+21.673          MY_HEADING           lsm9ds1         11.46806     
+21.686          MY_HEADING           lsm9ds1         9.71779      
+21.698          MY_HEADING           lsm9ds1         10.09778     
+21.711          MY_HEADING           lsm9ds1         11.52198     
+21.724          MY_HEADING           lsm9ds1         9.96162      
+21.736          MY_HEADING           lsm9ds1         10.32859     
+21.749          MY_HEADING           lsm9ds1         12.94720     
+21.761          MY_HEADING           lsm9ds1         10.83906     
+21.773          MY_HEADING           lsm9ds1         11.73620     
+21.786          MY_HEADING           lsm9ds1         11.62428     
+21.798          MY_HEADING           lsm9ds1         13.39158     
+21.810          MY_HEADING           lsm9ds1         10.92880     
+21.823          MY_HEADING           lsm9ds1         11.83150     
+21.835          MY_HEADING           lsm9ds1         12.48323     
+21.847          MY_HEADING           lsm9ds1         10.45182     
+21.859          MY_HEADING           lsm9ds1         10.56859     
+21.871          MY_HEADING           lsm9ds1         10.95991     
+21.884          MY_HEADING           lsm9ds1         12.57877     
+21.895          PCONTROLLER_ITER_GAP pController     1.00197      
+21.895          DB_TIME              MOOSDB_alpha    1555496297.89103 
+21.895          DB_UPTIME            MOOSDB_alpha    22.10919     
+21.895          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+21.896          MY_HEADING           lsm9ds1         11.22686     
+21.896          OUTPUT_VOLTAGE       pController     -0.84549     
+21.896          PCONTROLLER_ITER_LEN pController     0.00472      
+21.897          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:17.891         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:15.888         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2620...
+DB_RWSUMMARY         11:18:15.889         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:17.891         MOOSDB_alpha         0.5 Hz D  1555496297.9         
+DB_UPTIME            11:18:17.891         MOOSDB_alpha         0.5 Hz D  22.1                 
+DB_VARSUMMARY        11:18:15.888         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:16.210         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:17.855         lsm9ds1              79.6Hz D  10.6                 
+OUTPUT_VOLTAGE       11:18:17.644         pController          0.0 Hz D  -0.6                 
+PCONTROLLER_ITER_GAP 11:18:17.891         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:17.645         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:16.888         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:16.710         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+21.897          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.252962:0.440121:0.224113:0.279999,lsm9ds1=0.283957:0.37384:0.273943:0.306416,pController=0.363111:0.962973:0.271082:0.423765,pLogger=0.22006:0.715017:0.22006:0.362396, 
+21.898          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+21.908          MY_HEADING           lsm9ds1         10.72656     
+21.921          MY_HEADING           lsm9ds1         11.49424     
+21.933          MY_HEADING           lsm9ds1         11.47199     
+21.945          MY_HEADING           lsm9ds1         9.32389      
+21.957          MY_HEADING           lsm9ds1         10.10603     
+21.970          MY_HEADING           lsm9ds1         12.07519     
+21.982          MY_HEADING           lsm9ds1         9.21483      
+21.994          MY_HEADING           lsm9ds1         9.27219      
+22.006          MY_HEADING           lsm9ds1         10.67836     
+22.019          MY_HEADING           lsm9ds1         10.99675     
+22.031          MY_HEADING           lsm9ds1         8.14486      
+22.044          MY_HEADING           lsm9ds1         9.98233      
+22.056          MY_HEADING           lsm9ds1         10.49823     
+22.068          MY_HEADING           lsm9ds1         9.99737      
+22.081          MY_HEADING           lsm9ds1         8.05711      
+22.093          MY_HEADING           lsm9ds1         11.40934     
+22.106          MY_HEADING           lsm9ds1         7.00512      
+22.118          MY_HEADING           lsm9ds1         8.29200      
+22.131          MY_HEADING           lsm9ds1         10.18222     
+22.143          MY_HEADING           lsm9ds1         8.30961      
+22.145          PCONTROLLER_ITER_GAP pController     1.00055      
+22.145          OUTPUT_VOLTAGE       pController     -0.66477     
+22.145          PCONTROLLER_ITER_LEN pController     0.00088      
+22.155          MY_HEADING           lsm9ds1         8.34947      
+22.168          MY_HEADING           lsm9ds1         8.43219      
+22.180          MY_HEADING           lsm9ds1         8.55289      
+22.193          MY_HEADING           lsm9ds1         7.70428      
+22.205          MY_HEADING           lsm9ds1         8.62495      
+22.218          MY_HEADING           lsm9ds1         7.85815      
+22.230          MY_HEADING           lsm9ds1         8.44101      
+22.242          MY_HEADING           lsm9ds1         6.38712      
+22.255          MY_HEADING           lsm9ds1         6.89310      
+22.267          MY_HEADING           lsm9ds1         7.28477      
+22.279          MY_HEADING           lsm9ds1         6.33350      
+22.292          MY_HEADING           lsm9ds1         4.75693      
+22.304          MY_HEADING           lsm9ds1         6.59579      
+22.316          MY_HEADING           lsm9ds1         5.35331      
+22.329          MY_HEADING           lsm9ds1         4.08000      
+22.341          MY_HEADING           lsm9ds1         5.36085      
+22.353          MY_HEADING           lsm9ds1         6.93380      
+22.366          MY_HEADING           lsm9ds1         2.91254      
+22.378          MY_HEADING           lsm9ds1         4.50106      
+22.390          MY_HEADING           lsm9ds1         5.08529      
+22.396          PCONTROLLER_ITER_GAP pController     1.00186      
+22.396          OUTPUT_VOLTAGE       pController     -0.40682     
+22.396          PCONTROLLER_ITER_LEN pController     0.00084      
+22.403          MY_HEADING           lsm9ds1         2.83274      
+22.415          MY_HEADING           lsm9ds1         2.31832      
+22.428          MY_HEADING           lsm9ds1         3.19767      
+22.440          MY_HEADING           lsm9ds1         3.59329      
+22.452          MY_HEADING           lsm9ds1         1.44948      
+22.464          MY_HEADING           lsm9ds1         3.02436      
+22.477          MY_HEADING           lsm9ds1         3.02436      
+22.489          MY_HEADING           lsm9ds1         2.86625      
+22.501          MY_HEADING           lsm9ds1         2.06544      
+22.514          MY_HEADING           lsm9ds1         0.66340      
+22.526          MY_HEADING           lsm9ds1         2.28515      
+22.539          MY_HEADING           lsm9ds1         0.87750      
+22.551          MY_HEADING           lsm9ds1         0.49020      
+22.564          MY_HEADING           lsm9ds1         2.76076      
+22.576          MY_HEADING           lsm9ds1         0.71375      
+22.588          MY_HEADING           lsm9ds1         0.14073      
+22.601          MY_HEADING           lsm9ds1         0.42366      
+22.613          MY_HEADING           lsm9ds1         0.55906      
+22.625          MY_HEADING           lsm9ds1         358.90973    
+22.638          MY_HEADING           lsm9ds1         359.77994    
+22.646          PCONTROLLER_ITER_GAP pController     1.00353      
+22.647          OUTPUT_VOLTAGE       pController     0.01760      
+22.647          PCONTROLLER_ITER_LEN pController     0.00088      
+22.650          MY_HEADING           lsm9ds1         0.64134      
+22.663          MY_HEADING           lsm9ds1         359.35735    
+22.675          MY_HEADING           lsm9ds1         358.60426    
+22.687          MY_HEADING           lsm9ds1         355.77688    
+22.700          MY_HEADING           lsm9ds1         355.49104    
+22.712          MY_HEADING           lsm9ds1         355.03437    
+22.719          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=22.7193,cpuload=1.965,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+22.725          MY_HEADING           lsm9ds1         355.06010    
+22.737          MY_HEADING           lsm9ds1         354.87466    
+22.749          MY_HEADING           lsm9ds1         355.27793    
+22.762          MY_HEADING           lsm9ds1         354.48031    
+22.774          MY_HEADING           lsm9ds1         355.55820    
+22.787          MY_HEADING           lsm9ds1         354.98065    
+22.799          MY_HEADING           lsm9ds1         354.27075    
+22.811          MY_HEADING           lsm9ds1         354.32637    
+22.824          MY_HEADING           lsm9ds1         352.35686    
+22.836          MY_HEADING           lsm9ds1         353.53875    
+22.848          MY_HEADING           lsm9ds1         351.54646    
+22.861          MY_HEADING           lsm9ds1         351.57371    
+22.874          MY_HEADING           lsm9ds1         352.54946    
+22.886          MY_HEADING           lsm9ds1         352.31835    
+22.897          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=22.7001,cpuload=1.267,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+22.897          PCONTROLLER_ITER_GAP pController     1.00248      
+22.897          OUTPUT_VOLTAGE       pController     0.67410      
+22.897          PCONTROLLER_ITER_LEN pController     0.00059      
+22.899          MY_HEADING           lsm9ds1         352.07942    
+22.911          MY_HEADING           lsm9ds1         351.63632    
+22.924          MY_HEADING           lsm9ds1         352.27292    
+22.936          MY_HEADING           lsm9ds1         352.13986    
+22.948          MY_HEADING           lsm9ds1         352.15113    
+22.961          MY_HEADING           lsm9ds1         351.82569    
+22.973          MY_HEADING           lsm9ds1         351.76914    
+22.985          MY_HEADING           lsm9ds1         350.73509    
+22.998          MY_HEADING           lsm9ds1         349.58346    
+23.010          MY_HEADING           lsm9ds1         351.56351    
+23.022          MY_HEADING           lsm9ds1         350.51328    
+23.034          MY_HEADING           lsm9ds1         350.12871    
+23.047          MY_HEADING           lsm9ds1         350.69918    
+23.059          MY_HEADING           lsm9ds1         351.31467    
+23.071          MY_HEADING           lsm9ds1         349.60641    
+23.083          MY_HEADING           lsm9ds1         350.09666    
+23.095          MY_HEADING           lsm9ds1         351.51185    
+23.108          MY_HEADING           lsm9ds1         351.47993    
+23.120          MY_HEADING           lsm9ds1         349.89166    
+23.132          MY_HEADING           lsm9ds1         349.33639    
+23.145          MY_HEADING           lsm9ds1         350.74095    
+23.148          PCONTROLLER_ITER_GAP pController     1.00324      
+23.148          OUTPUT_VOLTAGE       pController     0.74072      
+23.148          PCONTROLLER_ITER_LEN pController     0.00087      
+23.157          MY_HEADING           lsm9ds1         351.31756    
+23.169          MY_HEADING           lsm9ds1         349.02180    
+23.182          MY_HEADING           lsm9ds1         351.77136    
+23.194          MY_HEADING           lsm9ds1         350.93924    
+23.206          MY_HEADING           lsm9ds1         350.52544    
+23.219          MY_HEADING           lsm9ds1         350.31591    
+23.231          MY_HEADING           lsm9ds1         351.85688    
+23.244          MY_HEADING           lsm9ds1         349.24421    
+23.256          MY_HEADING           lsm9ds1         349.77985    
+23.269          MY_HEADING           lsm9ds1         350.75600    
+23.281          MY_HEADING           lsm9ds1         351.53448    
+23.293          MY_HEADING           lsm9ds1         349.16471    
+23.306          MY_HEADING           lsm9ds1         351.75916    
+23.318          MY_HEADING           lsm9ds1         351.30384    
+23.330          MY_HEADING           lsm9ds1         350.16957    
+23.343          MY_HEADING           lsm9ds1         349.93874    
+23.355          MY_HEADING           lsm9ds1         351.31667    
+23.367          MY_HEADING           lsm9ds1         350.49097    
+23.380          MY_HEADING           lsm9ds1         349.86232    
+23.392          MY_HEADING           lsm9ds1         351.67135    
+23.398          PCONTROLLER_ITER_GAP pController     1.00169      
+23.398          OUTPUT_VOLTAGE       pController     0.66629      
+23.399          PCONTROLLER_ITER_LEN pController     0.00089      
+23.405          MY_HEADING           lsm9ds1         351.25523    
+23.417          MY_HEADING           lsm9ds1         351.17111    
+23.430          MY_HEADING           lsm9ds1         352.05447    
+23.442          MY_HEADING           lsm9ds1         351.95944    
+23.455          MY_HEADING           lsm9ds1         351.81595    
+23.467          MY_HEADING           lsm9ds1         350.67824    
+23.480          MY_HEADING           lsm9ds1         351.25243    
+23.492          MY_HEADING           lsm9ds1         352.41835    
+23.505          MY_HEADING           lsm9ds1         351.86217    
+23.517          MY_HEADING           lsm9ds1         351.26896    
+23.530          MY_HEADING           lsm9ds1         352.56626    
+23.542          MY_HEADING           lsm9ds1         352.18222    
+23.555          MY_HEADING           lsm9ds1         351.67827    
+23.567          MY_HEADING           lsm9ds1         352.04613    
+23.580          MY_HEADING           lsm9ds1         353.96302    
+23.592          MY_HEADING           lsm9ds1         352.13850    
+23.605          MY_HEADING           lsm9ds1         352.45471    
+23.617          MY_HEADING           lsm9ds1         354.80044    
+23.630          MY_HEADING           lsm9ds1         352.33248    
+23.642          MY_HEADING           lsm9ds1         352.00148    
+23.649          PCONTROLLER_ITER_GAP pController     1.00438      
+23.650          OUTPUT_VOLTAGE       pController     0.63988      
+23.650          PCONTROLLER_ITER_LEN pController     0.00164      
+23.655          MY_HEADING           lsm9ds1         354.43444    
+23.667          MY_HEADING           lsm9ds1         354.60965    
+23.680          MY_HEADING           lsm9ds1         353.10855    
+23.692          MY_HEADING           lsm9ds1         355.23328    
+23.705          MY_HEADING           lsm9ds1         355.84135    
+23.717          MY_HEADING           lsm9ds1         355.64812    
+23.730          MY_HEADING           lsm9ds1         353.85981    
+23.743          MY_HEADING           lsm9ds1         357.44152    
+23.755          MY_HEADING           lsm9ds1         355.12028    
+23.767          MY_HEADING           lsm9ds1         355.72221    
+23.780          MY_HEADING           lsm9ds1         356.52109    
+23.792          MY_HEADING           lsm9ds1         357.27809    
+23.805          MY_HEADING           lsm9ds1         355.91438    
+23.817          MY_HEADING           lsm9ds1         356.89554    
+23.830          MY_HEADING           lsm9ds1         358.44831    
+23.842          MY_HEADING           lsm9ds1         357.56215    
+23.855          MY_HEADING           lsm9ds1         357.56215    
+23.868          MY_HEADING           lsm9ds1         7.28983      
+23.880          MY_HEADING           lsm9ds1         359.50859    
+23.893          MY_HEADING           lsm9ds1         358.56043    
+23.900          PCONTROLLER_ITER_GAP pController     1.00299      
+23.901          OUTPUT_VOLTAGE       pController     -0.58319     
+23.901          PCONTROLLER_ITER_LEN pController     0.00214      
+23.901          DB_TIME              MOOSDB_alpha    1555496299.89646 
+23.901          DB_UPTIME            MOOSDB_alpha    24.11463     
+23.901          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+23.903          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:19.896         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:17.892         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2529...
+DB_RWSUMMARY         11:18:17.893         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:19.896         MOOSDB_alpha         0.5 Hz D  1555496299.9         
+DB_UPTIME            11:18:19.896         MOOSDB_alpha         0.5 Hz D  24.1                 
+DB_VARSUMMARY        11:18:17.892         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:16.210         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:19.863         lsm9ds1              80.7Hz D  7.3                  
+OUTPUT_VOLTAGE       11:18:19.651         pController          0.0 Hz D  0.6                  
+PCONTROLLER_ITER_GAP 11:18:19.896         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:19.651         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:18.893         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:18.715         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+23.903          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.260115:0.440121:0.224113:0.281429,lsm9ds1=0.323057:0.37384:0.273943:0.314236,pController=0.283003:0.962973:0.260115:0.407743,pLogger=0.276089:0.715017:0.22006:0.373602, 
+23.903          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+23.905          MY_HEADING           lsm9ds1         359.18533    
+23.917          MY_HEADING           lsm9ds1         359.49147    
+23.930          MY_HEADING           lsm9ds1         0.16570      
+23.942          MY_HEADING           lsm9ds1         356.76274    
+23.955          MY_HEADING           lsm9ds1         0.40000      
+23.967          MY_HEADING           lsm9ds1         359.09443    
+23.980          MY_HEADING           lsm9ds1         359.26741    
+23.992          MY_HEADING           lsm9ds1         359.72259    
+24.005          MY_HEADING           lsm9ds1         2.75614      
+24.017          MY_HEADING           lsm9ds1         2.25542      
+24.030          MY_HEADING           lsm9ds1         3.75005      
+24.042          MY_HEADING           lsm9ds1         3.07901      
+24.055          MY_HEADING           lsm9ds1         3.56076      
+24.067          MY_HEADING           lsm9ds1         5.96962      
+24.080          MY_HEADING           lsm9ds1         2.65512      
+24.092          MY_HEADING           lsm9ds1         3.55302      
+24.105          MY_HEADING           lsm9ds1         5.22938      
+24.117          MY_HEADING           lsm9ds1         4.49117      
+24.130          MY_HEADING           lsm9ds1         4.32419      
+24.142          MY_HEADING           lsm9ds1         5.17409      
+24.150          PCONTROLLER_ITER_GAP pController     1.00134      
+24.151          OUTPUT_VOLTAGE       pController     -0.41393     
+24.151          PCONTROLLER_ITER_LEN pController     0.00084      
+24.155          MY_HEADING           lsm9ds1         6.64975      
+24.167          MY_HEADING           lsm9ds1         3.57119      
+24.180          MY_HEADING           lsm9ds1         4.24764      
+24.192          MY_HEADING           lsm9ds1         7.42362      
+24.205          MY_HEADING           lsm9ds1         5.29588      
+24.217          MY_HEADING           lsm9ds1         6.41061      
+24.230          MY_HEADING           lsm9ds1         6.18395      
+24.242          MY_HEADING           lsm9ds1         7.12502      
+24.255          MY_HEADING           lsm9ds1         4.83689      
+24.267          MY_HEADING           lsm9ds1         6.02644      
+24.280          MY_HEADING           lsm9ds1         6.29910      
+24.292          MY_HEADING           lsm9ds1         6.44867      
+24.305          MY_HEADING           lsm9ds1         5.01827      
+24.317          MY_HEADING           lsm9ds1         6.20432      
+24.329          MY_HEADING           lsm9ds1         7.13970      
+24.342          MY_HEADING           lsm9ds1         6.18610      
+24.354          MY_HEADING           lsm9ds1         5.35583      
+24.366          MY_HEADING           lsm9ds1         6.89353      
+24.379          MY_HEADING           lsm9ds1         6.39097      
+24.391          MY_HEADING           lsm9ds1         6.16437      
+24.401          PCONTROLLER_ITER_GAP pController     1.00160      
+24.402          OUTPUT_VOLTAGE       pController     -0.49315     
+24.402          PCONTROLLER_ITER_LEN pController     0.00366      
+24.403          MY_HEADING           lsm9ds1         6.14388      
+24.416          MY_HEADING           lsm9ds1         7.86199      
+24.428          MY_HEADING           lsm9ds1         5.15633      
+24.441          MY_HEADING           lsm9ds1         5.57854      
+24.453          MY_HEADING           lsm9ds1         6.08136      
+24.466          MY_HEADING           lsm9ds1         5.83904      
+24.478          MY_HEADING           lsm9ds1         4.53997      
+24.491          MY_HEADING           lsm9ds1         6.43905      
+24.503          MY_HEADING           lsm9ds1         5.56117      
+24.516          MY_HEADING           lsm9ds1         5.08461      
+24.529          MY_HEADING           lsm9ds1         5.54027      
+24.541          MY_HEADING           lsm9ds1         6.73430      
+24.553          MY_HEADING           lsm9ds1         4.09958      
+24.566          MY_HEADING           lsm9ds1         5.01276      
+24.578          MY_HEADING           lsm9ds1         5.88208      
+24.591          MY_HEADING           lsm9ds1         5.34205      
+24.603          MY_HEADING           lsm9ds1         3.88652      
+24.615          MY_HEADING           lsm9ds1         5.35583      
+24.627          MY_HEADING           lsm9ds1         6.00157      
+24.640          MY_HEADING           lsm9ds1         6.00157      
+24.652          PCONTROLLER_ITER_GAP pController     1.00286      
+24.652          MY_HEADING           lsm9ds1         4.45008      
+24.652          OUTPUT_VOLTAGE       pController     -0.48013     
+24.652          PCONTROLLER_ITER_LEN pController     0.00244      
+24.664          MY_HEADING           lsm9ds1         5.58154      
+24.676          MY_HEADING           lsm9ds1         5.63152      
+24.689          MY_HEADING           lsm9ds1         5.42782      
+24.701          MY_HEADING           lsm9ds1         4.81853      
+24.713          MY_HEADING           lsm9ds1         5.66288      
+24.726          MY_HEADING           lsm9ds1         4.88636      
+24.726          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=24.726,cpuload=1.99,memory_kb=3364,memory_max_kb=3364,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPCAST,APPCAST_REQ,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,DESIRED_HEADING,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,MY_HEADING,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,PLOGGER_CMD,PLOGGER_STATUS,",LogAuxSrc=false 
+24.738          MY_HEADING           lsm9ds1         4.06850      
+24.750          MY_HEADING           lsm9ds1         5.21106      
+24.762          MY_HEADING           lsm9ds1         5.85137      
+24.774          MY_HEADING           lsm9ds1         3.84186      
+24.787          MY_HEADING           lsm9ds1         4.86324      
+24.799          MY_HEADING           lsm9ds1         4.77005      
+24.811          MY_HEADING           lsm9ds1         4.55713      
+24.823          MY_HEADING           lsm9ds1         3.00952      
+24.835          MY_HEADING           lsm9ds1         4.02744      
+24.847          MY_HEADING           lsm9ds1         2.39893      
+24.859          MY_HEADING           lsm9ds1         2.52250      
+24.872          MY_HEADING           lsm9ds1         2.52250      
+24.884          MY_HEADING           lsm9ds1         3.68562      
+24.896          MY_HEADING           lsm9ds1         2.99940      
+24.903          PCONTROLLER_STATUS   pController     AppErrorFlag=false,Uptime=24.7057,cpuload=1.454,memory_kb=1356,memory_max_kb=1508,MOOSName=pController,Publishing="APPCAST,OUTPUT_VOLTAGE,PCONTROLLER_ITER_GAP,PCONTROLLER_ITER_LEN,PCONTROLLER_STATUS,",Subscribing="APPCAST_REQ,DESIRED_HEADING,MY_HEADING," 
+24.903          PCONTROLLER_ITER_GAP pController     1.00417      
+24.903          OUTPUT_VOLTAGE       pController     -0.20180     
+24.903          PCONTROLLER_ITER_LEN pController     0.00052      
+24.908          MY_HEADING           lsm9ds1         2.18845      
+24.921          MY_HEADING           lsm9ds1         1.75094      
+24.933          MY_HEADING           lsm9ds1         2.52555      
+24.945          MY_HEADING           lsm9ds1         0.44822      
+24.957          MY_HEADING           lsm9ds1         0.84368      
+24.970          MY_HEADING           lsm9ds1         2.50281      
+24.982          MY_HEADING           lsm9ds1         0.85823      
+24.994          MY_HEADING           lsm9ds1         359.82377    
+25.006          MY_HEADING           lsm9ds1         1.55306      
+25.018          MY_HEADING           lsm9ds1         1.29112      
+25.031          MY_HEADING           lsm9ds1         358.81781    
+25.043          MY_HEADING           lsm9ds1         1.10402      
+25.055          MY_HEADING           lsm9ds1         1.78991      
+25.067          MY_HEADING           lsm9ds1         358.70769    
+25.079          MY_HEADING           lsm9ds1         1.40248      
+25.091          MY_HEADING           lsm9ds1         0.99246      
+25.103          MY_HEADING           lsm9ds1         0.99246      
+25.115          MY_HEADING           lsm9ds1         359.34351    
+25.127          MY_HEADING           lsm9ds1         359.31840    
+25.140          MY_HEADING           lsm9ds1         0.73249      
+25.152          MY_HEADING           lsm9ds1         359.43562    
+25.153          PCONTROLLER_ITER_GAP pController     1.00297      
+25.154          OUTPUT_VOLTAGE       pController     0.04515      
+25.154          PCONTROLLER_ITER_LEN pController     0.00079      
+25.165          MY_HEADING           lsm9ds1         359.90182    
+25.177          MY_HEADING           lsm9ds1         359.22524    
+25.189          MY_HEADING           lsm9ds1         0.85718      
+25.202          MY_HEADING           lsm9ds1         358.25180    
+25.214          MY_HEADING           lsm9ds1         359.36255    
+25.227          MY_HEADING           lsm9ds1         0.53233      
+25.239          MY_HEADING           lsm9ds1         356.45376    
+25.252          MY_HEADING           lsm9ds1         355.31812    
+25.265          MY_HEADING           lsm9ds1         355.72897    
+25.277          MY_HEADING           lsm9ds1         355.68288    
+25.290          MY_HEADING           lsm9ds1         356.76066    
+25.302          MY_HEADING           lsm9ds1         355.50306    
+25.315          MY_HEADING           lsm9ds1         354.90918    
+25.327          MY_HEADING           lsm9ds1         356.19975    
+25.340          MY_HEADING           lsm9ds1         354.63507    
+25.353          MY_HEADING           lsm9ds1         353.45762    
+25.365          MY_HEADING           lsm9ds1         354.50695    
+25.378          MY_HEADING           lsm9ds1         355.78523    
+25.390          MY_HEADING           lsm9ds1         354.64648    
+25.403          MY_HEADING           lsm9ds1         355.33581    
+25.404          PCONTROLLER_ITER_GAP pController     1.00159      
+25.404          OUTPUT_VOLTAGE       pController     0.37314      
+25.404          PCONTROLLER_ITER_LEN pController     0.00104      
+25.416          MY_HEADING           lsm9ds1         356.10299    
+25.428          MY_HEADING           lsm9ds1         354.08194    
+25.441          MY_HEADING           lsm9ds1         352.94534    
+25.453          MY_HEADING           lsm9ds1         355.64285    
+25.466          MY_HEADING           lsm9ds1         354.81065    
+25.478          MY_HEADING           lsm9ds1         353.65781    
+25.491          MY_HEADING           lsm9ds1         354.82736    
+25.504          MY_HEADING           lsm9ds1         356.59266    
+25.516          MY_HEADING           lsm9ds1         354.81716    
+25.529          MY_HEADING           lsm9ds1         355.25460    
+25.541          MY_HEADING           lsm9ds1         356.67771    
+25.554          MY_HEADING           lsm9ds1         356.57468    
+25.566          MY_HEADING           lsm9ds1         354.45770    
+25.579          MY_HEADING           lsm9ds1         354.91915    
+25.592          MY_HEADING           lsm9ds1         356.13355    
+25.604          MY_HEADING           lsm9ds1         356.43762    
+25.616          MY_HEADING           lsm9ds1         354.11833    
+25.629          MY_HEADING           lsm9ds1         354.86995    
+25.641          MY_HEADING           lsm9ds1         356.82225    
+25.653          MY_HEADING           lsm9ds1         354.43273    
+25.655          PCONTROLLER_ITER_GAP pController     1.00400      
+25.655          OUTPUT_VOLTAGE       pController     0.44538      
+25.655          PCONTROLLER_ITER_LEN pController     0.00126      
+25.666          MY_HEADING           lsm9ds1         355.03589    
+25.678          MY_HEADING           lsm9ds1         356.16499    
+25.691          MY_HEADING           lsm9ds1         355.14724    
+25.703          MY_HEADING           lsm9ds1         354.82046    
+25.715          MY_HEADING           lsm9ds1         355.94772    
+25.728          MY_HEADING           lsm9ds1         356.56201    
+25.740          MY_HEADING           lsm9ds1         354.82691    
+25.752          MY_HEADING           lsm9ds1         355.41670    
+25.764          MY_HEADING           lsm9ds1         356.04416    
+25.777          MY_HEADING           lsm9ds1         354.93345    
+25.789          MY_HEADING           lsm9ds1         353.56895    
+25.801          MY_HEADING           lsm9ds1         356.15698    
+25.814          MY_HEADING           lsm9ds1         355.48403    
+25.826          MY_HEADING           lsm9ds1         355.94366    
+25.839          MY_HEADING           lsm9ds1         356.63674    
+25.851          MY_HEADING           lsm9ds1         356.68303    
+25.864          MY_HEADING           lsm9ds1         355.57719    
+25.877          MY_HEADING           lsm9ds1         355.70529    
+25.889          MY_HEADING           lsm9ds1         357.89225    
+25.902          MY_HEADING           lsm9ds1         356.22501    
+25.905          PCONTROLLER_ITER_GAP pController     1.00207      
+25.906          DB_TIME              MOOSDB_alpha    1555496301.90134 
+25.906          DB_UPTIME            MOOSDB_alpha    26.11950     
+25.906          DB_CLIENTS           MOOSDB_alpha    lsm9ds1,getOutputPyMOOS,pController,pLogger, 
+25.907          OUTPUT_VOLTAGE       pController     0.34358      
+25.907          PCONTROLLER_ITER_LEN pController     0.00631      
+25.907          DB_VARSUMMARY        MOOSDB_alpha    APPCAST              11:17:56.891         pController          0.0 Hz S  proc=pController!@#ite...
+APPCAST_REQ          00:59:59.000         (write pending)      0.0 Hz ~  
+                   DB_CLIENTS           11:18:21.901         MOOSDB_alpha         0.5 Hz S  lsm9ds1,getOutputPyMOO...
+DB_EVENT             11:17:59.731         MOOSDB_alpha         0.8 Hz S  connected=lsm9ds1   
+DB_QOS               11:18:19.898         MOOSDB_alpha         0.5 Hz S  getOutputPyMOOS=0.2601...
+DB_RWSUMMARY         11:18:19.899         MOOSDB_alpha         0.5 Hz S  lsm9ds1=&MY_HEADING,ge...
+DB_TIME              11:18:21.901         MOOSDB_alpha         0.5 Hz D  1555496301.9         
+DB_UPTIME            11:18:21.901         MOOSDB_alpha         0.5 Hz D  26.1                 
+DB_VARSUMMARY        11:18:19.898         MOOSDB_alpha         0.5 Hz S  APPCAST              1...
+DESIRED_HEADING      00:59:59.000         (write pending)      0.0 Hz ~  
+                   LOGGER_DIRECTORY     11:18:16.210         pLogger              0.0 Hz S  ./LOG_pi_17_4_2019____...
+LOGGER_RESTART       00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_DEBUG           00:59:59.000         (write pending)      0.0 Hz ~  
+                   MOOS_SYSTEM          00:59:59.000         (write pending)      0.0 Hz ~  
+                   MY_HEADING           11:18:21.872         lsm9ds1              80.6Hz D  355.7                
+OUTPUT_VOLTAGE       11:18:21.662         pController          0.0 Hz D  0.4                  
+PCONTROLLER_ITER_GAP 11:18:21.901         pController          0.0 Hz D  1.0                  
+PCONTROLLER_ITER_LEN 11:18:21.662         pController          0.0 Hz D  0.0                  
+PCONTROLLER_STATUS   11:18:20.899         pController          0.0 Hz S  AppErrorFlag=false,Upt...
+PLOGGER_CMD          00:59:59.000         (write pending)      0.0 Hz ~  
+                   PLOGGER_STATUS       11:18:20.722         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+25.907          DB_QOS               MOOSDB_alpha    getOutputPyMOOS=0.30303:0.440121:0.224113:0.290012,lsm9ds1=0.334978:0.37384:0.26989:0.31662,pController=0.859976:0.962973:0.260115:0.523138,pLogger=0.236988:0.715017:0.22006:0.365782, 
+25.907          DB_RWSUMMARY         MOOSDB_alpha    lsm9ds1=&MY_HEADING,getOutputPyMOOS=OUTPUT_VOLTAGE&,pController=APPCAST_REQ:DESIRED_HEADING:MY_HEADING&APPCAST:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:DESIRED_HEADING:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:MY_HEADING:OUTPUT_VOLTAGE:PCONTROLLER_ITER_GAP:PCONTROLLER_ITER_LEN:PCONTROLLER_STATUS:PLOGGER_CMD:PLOGGER_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS 
+25.914          MY_HEADING           lsm9ds1         356.26942    
+25.928          MY_HEADING           lsm9ds1         356.72793    
+25.941          MY_HEADING           lsm9ds1         355.71085    
+25.954          MY_HEADING           lsm9ds1         355.81904    
+25.966          MY_HEADING           lsm9ds1         357.14128    
+25.979          MY_HEADING           lsm9ds1         357.29795    
+25.991          MY_HEADING           lsm9ds1         358.26140    
+26.003          MY_HEADING           lsm9ds1         357.50801    
+26.015          MY_HEADING           lsm9ds1         358.02697    
+26.027          MY_HEADING           lsm9ds1         0.05617      
+26.039          MY_HEADING           lsm9ds1         358.45036    
+26.052          MY_HEADING           lsm9ds1         358.20547    
+26.064          MY_HEADING           lsm9ds1         0.32359      
+26.076          MY_HEADING           lsm9ds1         359.04451    
+26.088          MY_HEADING           lsm9ds1         359.50355    
+26.100          MY_HEADING           lsm9ds1         0.01849      
+26.112          MY_HEADING           lsm9ds1         1.50844      
+26.124          MY_HEADING           lsm9ds1         359.67918    
+26.136          MY_HEADING           lsm9ds1         359.38132    
+26.149          MY_HEADING           lsm9ds1         1.47223      
+26.156          PCONTROLLER_ITER_GAP pController     1.00304      
+26.157          OUTPUT_VOLTAGE       pController     -0.11778     
+26.157          PCONTROLLER_ITER_LEN pController     0.00480      
+26.161          MY_HEADING           lsm9ds1         0.31956      
+26.173          MY_HEADING           lsm9ds1         359.52286    
+26.185          MY_HEADING           lsm9ds1         1.35306      
+26.197          MY_HEADING           lsm9ds1         1.53566      
+26.209          MY_HEADING           lsm9ds1         1.05523      
+26.221          MY_HEADING           lsm9ds1         0.92955      
